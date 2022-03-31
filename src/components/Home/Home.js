@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 
 import "./Home.scss";
 
-import HomeBg from "../../AppBackground"
-
 import profile from "../../assets/images/profile.png";
 
 import { BsArrowDownCircle } from "react-icons/bs";
@@ -18,7 +16,6 @@ function Home() {
 
   return (
     <>
-    <HomeBg/>
       <div className="page">
         <div className="container">
           <div className="home">

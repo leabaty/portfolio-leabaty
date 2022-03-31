@@ -1,3 +1,91 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.arrows-slide {
+  font-size: 30px;
+  margin: 0 20px;
+  color: var(--darkred);
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-size: 8px;
+  margin-top: 20px;
+  color: var(--darkred);
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--darkred);
+}
+
+/* IMAGE SLIDER */
+
+.slide {
+  transform: scale(0.6);
+  transition: transform 300ms;
+  opacity: 0.5;
+  max-width: 95%;
+  margin-top: 80px;
+}
+
+.activeSlide {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+// .arrow svg:hover {
+//   color: black;
+// }
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
+
+@media screen and (max-width: 1395px) {
+  .arrows-slide {
+    font-size: 25px;
+    margin: 0 -40px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .arrows-slide {
+    font-size: 20px;
+    margin: 0 -30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slick-dots li button:before {
+    font-size: 10px;
+    line-height: 0;
+  }
+
+  .arrows-slide {
+    display: none;
+  }
+}
+
 // COMPONENT RELATED STYLING
 
 .project {

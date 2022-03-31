@@ -1,15 +1,12 @@
-import React from "react";
+import ProjectSlider from "./Project/ProjectSlider.js";
 
-import ProjectSlider from "./Project/ProjectSlide.js";
-
-function Work(project) {
-  console.log(project)
+function Work() {
   return (
     <>
       <div className="page">
         <div className="container">
-        {/* <h1 className="title">Work</h1> */}
-          <ProjectSlider projectData={project}/>
+          <h1 className="title">Work</h1>
+          <ProjectSlider/>
         </div>
       </div>
     </>
