@@ -1,0 +1,31 @@
+.page {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: "friendly_schoolmatesregular", cursive;
+  color: var(--primary);
+  margin: 20px 0;
+}
+
+.title--medium {
+  font-family: "friendly_schoolmatesregular", cursive;
+  font-size: 2.2rem;
+}
+
+.title--small {
+  font-family: "friendly_schoolmatesregular", cursive;
+  font-size: 1.8rem;
+}
+
+.title--nano {
+  font-family: "friendly_schoolmatesregular", cursive;
+  font-size: 1.4rem;
+}
+
+.underlined {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

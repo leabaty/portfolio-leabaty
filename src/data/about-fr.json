@@ -1,0 +1,192 @@
+{
+  "education": [
+    {
+      "id": "1",
+      "school": "Lycée Jean Dautet",
+      "diploma": "Abibac",
+      "start_period": "",
+      "end_period": "2010",
+      "location": "La Rochelle",
+      "description": ["double french-german highschool diploma"], 
+      "important":false
+    },
+    {
+      "id": "2",
+      "school": "Université Lyon 2 et Bauhaus Universität Weimar",
+      "diploma": "French-German Bachelor - Information-Communication & Media Culture",
+      "start_period": "2010",
+      "end_period": "2013",
+      "location": "Lyon & Weimar",
+      "description": [""], 
+      "important":false
+    },
+    {
+      "id": "3",
+      "school": "EDHEC Business School ",
+      "diploma": "Master 1 Business Management",
+      "start_period": "2013",
+      "end_period": "2014",
+      "location": "Lille        ",
+      "description": ["Programme Grande Ecole"], 
+      "important":false
+    },
+    {
+      "id": "4",
+      "school": "EDHEC Business School ",
+      "diploma": "MsC Entrepreneurship & Innovation",
+      "start_period": "2015",
+      "end_period": "2016",
+      "location": "Lille",
+      "description": ["Spécialisation Explora (spécialisation digitale)"], 
+      "important":false
+    },
+    {
+      "id": "5",
+      "school": "O'Clock",
+      "diploma": "Developer Fullstack JavaScript Training",
+      "start_period": "",
+      "end_period": "2021",
+      "location": "remote",
+      "description": [""], 
+      "important":true
+    }
+  ],
+
+  "work experience": [
+    {
+      "id": "1",
+      "company": "Hewlett-Packard",
+      "position": "Junior Area Category Manager       ",
+      "start_period": "",
+      "end_period": "",
+      "location": "Boulogne-Billancourt",
+      "description": [
+        "Participation aux activités liées au pricing, marketing et communication, analyse du marché et veille concurrentielle",
+        "Implémentation des actions promotionnelles et support aux forces de ventes internes et externes "
+      ]
+    },
+    {
+      "id": "2",
+      "company": "TUI Group",
+      "position": "International Graduate Leadership Program",
+      "start_period": "2016",
+      "end_period": "2018",
+      "location": "Europe",
+      "description": [
+        " 5 missions, chacune d'une durée de 3 à 4 mois à travers différents environnements de travail des filiales du groupe TUI. ",
+        " Gestion de concepts et produits - Hanovre,  Allemagne ",
+        " Business Development - Luton, GB ",
+        " Développement durable et expérience client - Palma de Majorque, Espagne ",
+        " Chef d'équipe en resort – Malte ",
+        " Gestion de produits - Paris, France "
+      ]
+    },
+    {
+      "id": "3",
+      "company": "TUI France ",
+      "position": "Chef de produit Long-Courrier ",
+      "start_period": "2018",
+      "end_period": "2021",
+      "location": "Levallois-Perret",
+      "description": [
+        " Remplacement de 2 Chefs de Produit Séjours/République Dominicaine, Antilles Françaises et îles des Caraïbes (8 mois).  ",
+        " Junior Chef de Produit sur les séjours Caraïbes et la gamme Circuits Asie. ",
+        " Analyse du marché, conception et mise en œuvre du portefeuille produit, suivi et promotion des offres, gestion et communication de l’offre sur chacune des destinations. "
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "1",
+      "name": "HTML & CSS",
+      "description": [""]
+    },
+    {
+      "id": "2",
+      "name": "Javascript",
+      "description": [""]
+    },
+    {
+      "id": "3",
+      "name": "React",
+      "description": [""]
+    },
+    {
+      "id": "4",
+      "name": "Redux",
+      "description": [""]
+    },
+    {
+      "id": "5",
+      "name": "Node.js",
+      "description": ["Express"]
+    },
+    {
+      "id": "6",
+      "name": "PostgreSQL",
+      "description": [""]
+    },
+    {
+      "id": "7",
+      "name": "MongoDB",
+      "description": [""]
+    },
+    {
+      "id": "8",
+      "name": "Git",
+      "description": [""]
+    }
+  ],
+
+  "diplomas": [
+    {
+      "id": "1",
+      "name": "Opquast certification: Mastering Web Quality Assurance",
+      "year": "2021",
+      "score": "920/1000",
+      "description": [
+        "EXPERT level - Complete mastery of best practices and associated vocabulary. Sufficient level of expertise to become a referent and trainer on Web quality.",
+        "Certificate reference: ZI7UB3"
+      ]
+    },
+
+    {
+      "id": "2",
+      "name": "TOEFL",
+      "year": "2014",
+      "score": "106/120",
+      "description": []
+    },
+    {
+      "id": "3",
+      "name": "        WiDaf",
+      "year": "2010",
+      "score": "895/990",
+      "description": []
+    }
+  ],
+
+  "languages": [
+    {
+      "id": "1",
+      "language": "French",
+      "level": "native language"
+    },
+    {
+      "id": "2",
+      "language": "German",
+      "level": "native language"
+    },
+    {
+      "id": "3",
+      "language": "English",
+      "level": "bilingual"
+    },
+    {
+      "id": "4",
+      "language": "Spanish",
+      "level": "intermediate"
+    }
+  ]
+}

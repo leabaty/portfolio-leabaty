@@ -1,0 +1,22 @@
+.skills{
+    &__container{
+        width: 300px;
+    }
+
+    &__tag {
+        padding: 6px 12px;
+        margin: 0 0 12px 12px;
+        background-color: var(--lightpink);
+        border-radius: 25px;
+        display: inline-block;
+      }
+}
+
+@media screen and (max-width: 769px) {
+    .skills{
+        &__container{
+            width: 100%;
+        }
+  }
+}
+  

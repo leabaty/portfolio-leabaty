@@ -1,0 +1,202 @@
+{
+  "educations": [
+    {
+      "_id": "1",
+      "school": "Lycée Jean Dautet",
+      "diploma": "Abibac",
+      "start_period": "2007",
+      "end_period": "2010",
+      "location": "La Rochelle",
+      "description": ["double french-german highschool diploma"]
+    },
+    {
+      "_id": "2",
+      "school": "Université Lyon 2 et Bauhaus Universität",
+      "diploma": "French-German Bachelor - Information-Communication & Media Culture",
+      "start_period": "2010",
+      "end_period": "2013",
+      "location": "Lyon & Weimar",
+      "description": [""]
+    },
+    {
+      "_id": "3",
+      "school": "EDHEC Business School ",
+      "diploma": "Master 1 Business Management",
+      "start_period": "2013",
+      "end_period": "2014",
+      "location": "Lille        ",
+      "description": ["Programme Grande Ecole"]
+    },
+    {
+      "_id": "4",
+      "school": "EDHEC Business School ",
+      "diploma": "MsC Entrepreneurship & Innovation",
+      "start_period": "2015",
+      "end_period": "2016",
+      "location": "Lille",
+      "description": ["Spécialisation Explora (spécialisation digitale)"]
+    },
+    {
+      "_id": "5",
+      "school": "O'Clock",
+      "diploma": "Fullstack JavaScript Web development training",
+      "start_period": "2021",
+      "end_period": "2021",
+      "location": "remote",
+      "description": [""]
+    }
+  ],
+
+  "experiences": [
+    {
+      "_id": "1",
+      "company": "Hewlett-Packard",
+      "position": "Junior Area Category Manager       ",
+      "start_period": "2014",
+      "end_period": "2015",
+      "location": "Boulogne-Billancourt",
+      "description": [
+        "Participated to the creation of the pricing strategy and was in charge of promotional actions implementation every month for wholesalers and resellers",
+        "Was in charge of the PC Category pricing file distributed monthly internally and externally",
+        "Implemented the marketing and communication plan (creation of a product catalog, brochures, and newsletters)",
+        "Supported external and internal sales force on a daily basis, by creating sales support tools, product trainings and answering technical questions",
+        "Benchmarking, created battle cards and sales points",
+        "Coordinated events linked to my products and gave presentations (trade fairs, road show, customer presentation ...) and ave presentations of products and new releases in form of conferences or personal selling.",
+        "Was the principal contact for sales operations team regarding end users and resellers promotions cash flows"
+      ]
+    },
+    {
+      "_id": "2",
+      "company": "TUI Group",
+      "position": "International Graduate Leadership Program",
+      "start_period": "2016",
+      "end_period": "2018",
+      "location": "Europe",
+      "description": [
+        "The TUI International Graduate Leadership Program is an 18-month journey through different working environments of the TUI Group companies. The objective: to obtain an in-depth look at the tourism business. It is div_ided in 5 assignments, each of them lasting three to four months, taking place in different countries.",
+        "1st Assignment (09/16-12/16) : Hotel Concepts, Product & Trading - Hanover, Germany",
+        "2nd Assignment (01/17-06/17) : Product & Purchasing - Luton, UK",
+        "Rep Assignment (06/17) : Pula, Croatia",
+        "3rd Assignment (06/17-09/17) : Sustainability & Guest Experience - Palma de Mallorca, Spain",
+        "4th Assignment (09/17-11/17) : Team Leader Assignment - Malta",
+        "5th Assignment (11/17-31/03) : Product - Paris, France"
+      ]
+    },
+    {
+      "_id": "3",
+      "company": "TUI France ",
+      "position": "Long-Haul Product Manager ",
+      "start_period": "2018",
+      "end_period": "2021",
+      "location": "Levallois-Perret",
+      "description": [
+        "Market analysis, product portfolio design and implementation, brochure conception, negociation, monitoring and communication of offers, destination expert.",
+        "Replacement of two long haul product managers for 9 months (balnearic stays in Dominican Republic, french Antilles and Caribbean islands)",
+        "Product Manager for balnearic stays in Vietnam, Cambodia & Bahamas",
+        "Product Manager Assistant for roundtrips in Asia and for balnearic stays in the Dominican Republic & Cuba"
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "_id": "1",
+      "name": "HTML & CSS",
+      "description": [""],
+      "important":true
+    },
+    {
+      "_id": "2",
+      "name": "Javascript",
+      "description": [""],
+      "important":true
+    },
+    {
+      "_id": "3",
+      "name": "React",
+      "description": [""],
+      "important":true
+    },
+    {
+      "_id": "4",
+      "name": "Redux",
+      "description": [""],
+      "important":true
+    },
+    {
+      "_id": "5",
+      "name": "Node.js",
+      "description": ["Express"],
+      "important":true
+    },
+    {
+      "_id": "6",
+      "name": "PostgreSQL",
+      "description": [""],
+      "important":true
+    },
+    {
+      "_id": "7",
+      "name": "MongoDB",
+      "description": [""],
+      "important":true
+    },
+    {
+      "_id": "8",
+      "name": "Git",
+      "description": [""],
+      "important":true
+    }
+  ],
+
+  "certifications": [
+    {
+      "_id": "1",
+      "name": "Opquast certification: Mastering Web Quality Assurance",
+      "year": "2021",
+      "score": "920/1000",
+      "description": [
+        "EXPERT level - Complete mastery of best practices and associated vocabulary. Sufficient level of expertise to become a referent and trainer on Web quality.",
+        "Certificate reference: ZI7UB3"
+      ]
+    },
+
+    {
+      "_id": "2",
+      "name": "TOEFL",
+      "year": "2014",
+      "score": "106/120",
+      "description": []
+    },
+    {
+      "_id": "3",
+      "name": "Widaf",
+      "year": "2010",
+      "score": "895/990",
+      "description": []
+    }
+  ],
+
+  "languages": [
+    {
+      "_id": "1",
+      "language": "French",
+      "level": "native language"
+    },
+    {
+      "_id": "2",
+      "language": "German",
+      "level": "native language"
+    },
+    {
+      "_id": "3",
+      "language": "English",
+      "level": "bilingual"
+    },
+    {
+      "_id": "4",
+      "language": "Spanish",
+      "level": "intermediate"
+    }
+  ]
+}

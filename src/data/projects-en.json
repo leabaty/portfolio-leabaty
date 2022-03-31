@@ -1,0 +1,46 @@
+{
+    "projects":[
+        {
+            "_id": "1",
+            "name": "Apsara Yoga",
+            "short_desc": "The makeover of my yoga's teacher website, using React.js", 
+            "long_desc": "", 
+            "img_url":"https://i.ibb.co/0ykPfH8/apsara-yoga.webp", 
+            "img_alt":"Project Apsara Yoga",
+            "website_url":"https://apsara-yoga.netlify.app/",
+            "github_url":"https://github.com/leabaty/yoga-website",
+            "technologies": ["React", "Node.js"], 
+            "project_year": "2022", 
+            "important":true
+        }, 
+        {
+            "_id": "2",
+            "name": "La Couette Benèze",
+            "short_desc": "A nice website for a guesthouse located in France, using React.js", 
+            "long_desc": "", 
+            "img_url":"https://i.ibb.co/N1GwY2b/couette-beneze-43.png", 
+            "img_alt":"Project La Couette Benèze",
+            "website_url":"https://lacouettebeneze.netlify.app/",
+            "github_url":"https://github.com/leabaty/guesthouse-website",
+            "technologies": ["React", "Node.js"], 
+            "project_year": "2022", 
+            "important":true
+        }, 
+        {
+            "_id": "3",
+            "name": "Devolution",
+            "short_desc": "An O'Clock group project : A platform where makers (designers, web developers) can seek projects they want to work on, and non-profit organizations can find support to launch their website !", 
+            "long_desc": "", 
+            "img_url":"https://i.ibb.co/r6BwPtW/devolution-43.png", 
+            "img_alt":"Project - Devolution",
+            "website_url":"",
+            "github_url":"https://github.com/leabaty/devolution-o-clock",
+            "technologies": ["React", "Redux", "Node.js"], 
+            "project_year": "2022", 
+            "important":true
+        }
+
+
+    ]
+
+    }

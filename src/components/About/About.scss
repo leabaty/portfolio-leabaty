@@ -1,0 +1,44 @@
+.about {
+  &__section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+  }
+
+  &__element {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__sub-element {
+    margin-bottom: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .about {
+    &__section {
+    flex-direction: column;
+  }
+
+  &__element {
+    width: 100%;
+  }
+
+  &__sub-element {
+    text-align: center;
+    align-items: center;
+  }
+}
+}
+
