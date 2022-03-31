@@ -140,7 +140,9 @@ function Contact() {
             </div>
           )}
         </div>
+
       </div>
+
     </>
   );
 }

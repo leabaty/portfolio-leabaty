@@ -38,7 +38,7 @@ function App() {
                 <div className="section"><Home/></div>
 
                 <div className="section">
-                <Contact />
+                <Work />
                 </div>
 
                 {/* <div className="section">
