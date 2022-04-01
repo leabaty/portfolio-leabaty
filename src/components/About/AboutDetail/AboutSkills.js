@@ -10,7 +10,16 @@ function AboutSkills() {
       <div className="skills__container">
         {data.skills.map((skill, index) => {
           return (
-              <p key={skill._id} className="skills__tag">{skill.name}</p>
+            <p
+              key={skill._id}
+              className={
+                skill.important === true
+                  ? "skills__tag--important"
+                  : "skills__tag"
+              }
+            >
+              {skill.name}
+            </p>
           );
         })}
       </div>
