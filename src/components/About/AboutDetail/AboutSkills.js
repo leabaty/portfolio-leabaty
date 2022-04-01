@@ -2,7 +2,7 @@ import React from "react";
 
 import "./AboutSkills.scss";
 
-import data from "../../data/about-en.json";
+import data from "../../../data/about-en.json";
 
 function AboutSkills() {
   return (

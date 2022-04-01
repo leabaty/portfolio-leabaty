@@ -7,7 +7,6 @@ import profile from "../../assets/images/profile.png";
 import { BsArrowDownCircle } from "react-icons/bs";
 
 function Home() {
-
   // HORIZONTAL SCROLL
   var scrollEventHandler = function () {
     window.scroll(0, window.pageYOffset);
@@ -30,7 +29,9 @@ function Home() {
               </p>
               <p className="home__designation__text --smaller">cat lover</p>
 
-              <BsArrowDownCircle className="home__scroll-icon" />
+              <a href="#Work">
+                <BsArrowDownCircle className="home__scroll-icon" />
+              </a>
             </div>
           </div>
         </div>

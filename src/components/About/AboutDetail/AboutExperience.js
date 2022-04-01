@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 import "./AboutExperience.scss";
 
-import data from "../../data/about-en.json";
+import data from "../../../data/about-en.json";
 
 import { BsArrowRightCircle } from "react-icons/bs";
 

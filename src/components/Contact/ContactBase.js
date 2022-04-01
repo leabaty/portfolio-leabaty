@@ -11,7 +11,7 @@ function ContactBase({ handleChange, formData, formErrors }) {
       <div className="form__base">
         <div className="form__element">
           <div className="form__item">
-            <AiOutlineUser />
+            <AiOutlineUser className="form__icon"/>
             <input
               className="form__input --base"
               placeholder="Firstname"
@@ -26,7 +26,7 @@ function ContactBase({ handleChange, formData, formErrors }) {
 
         <div className="form__element">
           <div className="form__item">
-            <AiOutlineUser />
+            <AiOutlineUser className="form__icon"/>
             <input
               className="form__input --base"
               placeholder="Lastname"
@@ -41,7 +41,7 @@ function ContactBase({ handleChange, formData, formErrors }) {
 
         <div className="form__element">
           <div className="form__item ">
-            <FiPhone />
+            <FiPhone className="form__icon"/>
             <input
               className="form__input --base"
               placeholder="Phone number"
@@ -56,7 +56,7 @@ function ContactBase({ handleChange, formData, formErrors }) {
 
         <div className="form__element">
           <div className="form__item">
-            <FiMail />
+            <FiMail className="form__icon"/>
             <input
               className="form__input --base"
               placeholder="Email address"

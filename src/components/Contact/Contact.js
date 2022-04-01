@@ -34,7 +34,6 @@ function Contact() {
     const errors = {};
 
     const regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$/;
-    // const regexPhone = /^\d{10,}$/;
 
     if (!value.firstname) {
       errors.firstname = "⚠ This field is mandatory";
@@ -48,12 +47,6 @@ function Contact() {
       errors.email =
         "⚠ Please check the email input, the format doesn't match !";
     }
-    // if (!value.phone) {
-    //   errors.phone = "⚠ Ce champ est obligatoire";
-    // } else if (!regexPhone.test(value.phone)) {
-    //   errors.phone =
-    //     "⚠ Merci de vérifier votre saisie, le numéro doit comporter au minimum 10 chiffres";
-    // }
     return errors;
   };
 
@@ -100,10 +93,13 @@ function Contact() {
           <h1 className="title">Contact</h1>
 
           <p className="contact__intro">
-            Interested in knowing more ? <br/> Want to discuss a website idea or 
-            share a position that I could be interested of ? <br/> Or do you just
-            want a picture of my cat to prove it's the most beautiful one ? <br/> <span className="contact__intro--bold">Drop me a message ! I’ll get back to you
-            very soon. </span>{" "}
+            Interested in knowing more ? <br /> Want to discuss a website idea
+            or share a position that I could be interested of ? <br /> Or do you
+            just want a picture of my cat to prove it's the most beautiful one ?{" "}
+            <br />{" "}
+            <span className="contact__intro--bold">
+              Drop me a message ! I’ll get back to you very soon.{" "}
+            </span>{" "}
           </p>
 
           {!sent ? (

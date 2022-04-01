@@ -1,31 +1,50 @@
-.contact__intro{
+.contact__intro {
   margin: 0 auto;
   width: 60%;
   line-height: 20px;
-  &--bold{
+  &--bold {
     font-weight: 500;
   }
 }
 
-.form__base,
-.form__information {
-  padding: 20px 0;
-  width: 80vw;
+.form {
+  &__base {
+    padding: 20px 0 0;
+  }
+  &__information {
+    width: 80vw;
+  }
+  &__element {
+    padding: 15px 0;
+  }
+
+  &__input {
+    font-family: "Jost", sans-serif;
+    padding: 5px 12px;
+    margin-left: 12px;
+    width: 300px;
+    font-size: 18px;
+    color: var(--darkred);
+
+    border: none;
+    border-radius: 20px;
+  }
+  &__warning {
+    color: darkred;
+    text-align: center;
+  }
+  &__row-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &__small-span {
+    font-size: 0.8rem;
+  }
 }
 
-.form__element {
-  padding: 15px 0;
-}
-
-.form__input {
-  font-family: 'Jost', sans-serif;
-  padding: 5px 12px;
-  margin-left: 12px;
-  width: 300px;
-  font-size: 18px;
-
-  border: none;
-  border-radius: 20px;
+::placeholder {
+  color: var(--lightpink);
 }
 
 .--base {
@@ -37,41 +56,34 @@
   height: 150px;
 }
 
-.form__warning {
-  color: darkred;
-  text-align: center;
-}
-
-.form__row-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.form__small-span {
-  font-size: 0.8rem;
-}
-
 label input {
   margin-right: 5px;
 }
 
 .btn--back-to-menu {
-  margin:20px;
+  margin: 20px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 789px) {
+  .form {
+    &__element {
+      padding: 10px 0;
+    }
 
-  .form__row-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    &__row-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .form__input {
-    width: 300px;
-    max-width: 90%;
-    margin:15px 0 0 0;
+    &__input {
+      width: 300px;
+      max-width: 90%;
+      margin: 5px 0 0 0;
+    }
+    &__icon {
+      display: none;
+    }
   }
 
   .--text {
@@ -87,6 +99,12 @@ label input {
     margin: 10px;
   }
 
-
+  .contact__intro {
+    margin: 0 auto;
+    width: 95%;
+    line-height: 20px;
+    &--bold {
+      font-weight: 500;
+    }
+  }
 }
-

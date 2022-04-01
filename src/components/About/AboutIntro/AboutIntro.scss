@@ -23,8 +23,8 @@
     position: block;
     height: 400px;
     width: 800px;
-    border-top-left-radius: 310px;
-    border-top-right-radius: 310px;
+    border-top-left-radius: 410px;
+    border-top-right-radius: 410px;
   }
 
   &__tag {
@@ -64,4 +64,40 @@
 
 .five {
   transform: rotate(0deg) translate(325px);
+}
+
+@media screen and (max-width: 950px) {
+  .one,
+  .two,
+  .three,
+  .four,
+  .five {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .about-desktop{
+    padding-bottom: 50px;
+
+    &__ensemble {
+      position: block;
+      height: 200px;
+      width: 400px;
+      border-top-left-radius: 210px;
+      border-top-right-radius: 210px;
+    }
+
+    &__intro {
+      margin: 30px auto 0;
+      font-size: 16px;
+      width: 90%;
+      line-height: 23px;
+  
+  
+      &--pgp {
+        margin-bottom: 10px;
+      }
+    }
+  }
 }

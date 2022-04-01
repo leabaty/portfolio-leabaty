@@ -1,7 +1,7 @@
 import React from "react";
 
-import "./About.scss";
-import "../FontStyles.scss";
+import "./AboutDetail.scss";
+import "../../FontStyles.scss";
 
 import AboutExperience from "./AboutExperience.js";
 import AboutEducation from "./AboutEducation.js";

@@ -46,7 +46,7 @@
       line-height: 20px;
     }
 
-    &__description{
+    &__description {
       margin: 5px 0;
       line-height: 20px;
       font-size: 0.9em;
@@ -69,6 +69,10 @@
       padding-right: 0;
       border-left: 1px solid var(--lightpink);
       padding-left: 10px;
+    }
+    &__item--important {
+      text-align: left;
+      width: 90%;
     }
   }
 }

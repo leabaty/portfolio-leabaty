@@ -8,7 +8,7 @@ import {
   BsPalette,
 } from "react-icons/bs";
 
-import "./AboutDesktop.scss";
+import "./AboutIntro.scss";
 import aboutMeImg from "../../../assets/images/about-illustration.svg";
 
 function AboutDesktop() {
@@ -18,7 +18,7 @@ function AboutDesktop() {
         <div className="container">
           <h1 className="title">About me</h1>
 
-          <p className="about-desktop__intro">
+          <div className="about-desktop__intro">
             <p className="about-desktop__intro--pgp">
               After four years spent in the tourism industry, I made a{" "}
               <span className="about-desktop__intro--bold">
@@ -49,7 +49,7 @@ function AboutDesktop() {
                 There is so much to do, to learn, to test out, to build !
               </span>
             </p>
-          </p>
+          </div>
 
           <div className="about-desktop">
             <div className="about-desktop__ensemble">

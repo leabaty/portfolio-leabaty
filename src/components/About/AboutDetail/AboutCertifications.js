@@ -2,7 +2,7 @@ import React from "react";
 
 import "./AboutCertifications.scss";
 
-import data from "../../data/about-en.json";
+import data from "../../../data/about-en.json";
 
 function AboutCertifications() {
   return (

@@ -13,13 +13,13 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
+import AboutDetail from "./components/About/AboutDetail/AboutDetail";
+import AboutIntro from "./components/About/AboutIntro/AboutIntro";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
-import AboutDesktop from "./components/About/AboutDesktop/AboutDesktop";
 
 function App() {
-  const anchors = ["Home", "Work", "About", "Contact"];
+  const anchors = ["Home", "Work", "About", "Resume", "Contact", "Bottom"];
 
   return (
     <div className="app">
@@ -36,18 +36,20 @@ function App() {
           render={({ state }) => {
             return (
               <ReactFullpage.Wrapper>
-                <div className="section"><Home/></div>
-
                 <div className="section">
-                <Work />
+                  <Home />
                 </div>
 
                 <div className="section">
-                  <AboutDesktop />
+                  <Work />
                 </div>
 
                 <div className="section">
-                  <About />
+                  <AboutIntro />
+                </div>
+
+                <div className="section">
+                  <AboutDetail />
                 </div>
 
                 <div className="section">
