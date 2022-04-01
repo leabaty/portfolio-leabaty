@@ -32,7 +32,7 @@ function ProjectSlider() {
   const [mobileMode, setMobileMode] = useState(false);
 
   const settingsDesktop = {
-    dots: true,
+    dots: false,
     infinite: true,
     lazyLoad: true,
     centerMode: true,
@@ -46,7 +46,7 @@ function ProjectSlider() {
   };
 
   const settingsMobile = {
-    dots: true,
+    dots: false,
     infinite: true,
     lazyLoad: true,
     speed: 300,
@@ -94,7 +94,7 @@ function ProjectSlider() {
         </Slider>
       ) : (
         <Slider {...settingsDesktop}>
-          {data.projects.map((project, index) => {
+          {data.projects.map((project, index, array) => {
             return (
               <div
                 className={index === imageIndex ? "slide activeSlide" : "slide"}
@@ -106,6 +106,11 @@ function ProjectSlider() {
               >
                 <div className="project__container">
                   <div className="project__description">
+                                        
+                  <h4 className="title--nano project__description__title">
+                      {index+1}/{array.length}
+                    </h4>
+
                     <h2 className="title--small project__description__title">
                       {project.name}
                     </h2>

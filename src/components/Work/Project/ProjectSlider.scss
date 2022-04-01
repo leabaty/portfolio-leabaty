@@ -95,7 +95,6 @@
     justify-content: space-around;
     align-items: center;
     text-align: left;
-    padding-bottom: 50px;
   }
 
   &__description {
@@ -143,7 +142,7 @@
   &__image {
     display: flex;
     align-items: center;
-    width: 55%;
+    width: 50%;
     max-height: 550px;
 
     &__item {

@@ -7,7 +7,7 @@
 
   &__item {
     text-align: left;
-    border-left: 1px solid var(--mustard);
+    border-left: 1px solid var(--lightpink);
     padding-left: 10px;
     width: 90%;
     margin-bottom: 10px;
@@ -19,6 +19,16 @@
       line-height: 20px;
       font-size: 0.9rem;
     }
+  }
+
+  &__item--important {
+    text-align: left;
+    border-radius: 10px;
+    background: var(--lightpink);
+    color: var(--beige);
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
   }
 
   &__infos {
@@ -34,7 +44,7 @@
     &__icon {
       margin-right: 35px;
       font-size: 1.2rem;
-      color: var(--mustard);
+      color: var(--lightpink);
       cursor: pointer;
 
       &:hover {

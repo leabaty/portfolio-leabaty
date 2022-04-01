@@ -13,7 +13,14 @@ function AboutEducation() {
           .reverse()
           .map((education, index) => {
             return (
-              <div className="education__item" key={education._id}>
+              <div
+                className={
+                  education.important === true
+                    ? "education__item--important"
+                    : "education__item"
+                }
+                key={education._id}
+              >
                 <h4 className="education__item__title">{education.diploma}</h4>
 
                 <div className="education__infos">

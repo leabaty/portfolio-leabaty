@@ -7,7 +7,8 @@
       "start_period": "2007",
       "end_period": "2010",
       "location": "La Rochelle",
-      "description": ["double french-german highschool diploma"]
+      "description": ["double french-german highschool diploma"],
+      "important": false
     },
     {
       "_id": "2",
@@ -16,7 +17,8 @@
       "start_period": "2010",
       "end_period": "2013",
       "location": "Lyon & Weimar",
-      "description": [""]
+      "description": [""],
+      "important": false
     },
     {
       "_id": "3",
@@ -25,7 +27,8 @@
       "start_period": "2013",
       "end_period": "2014",
       "location": "Lille        ",
-      "description": ["Programme Grande Ecole"]
+      "description": ["Programme Grande Ecole"],
+      "important": false
     },
     {
       "_id": "4",
@@ -34,7 +37,8 @@
       "start_period": "2015",
       "end_period": "2016",
       "location": "Lille",
-      "description": ["Spécialisation Explora (spécialisation digitale)"]
+      "description": ["Spécialisation Explora (spécialisation digitale)"],
+      "important": false
     },
     {
       "_id": "5",
@@ -43,7 +47,8 @@
       "start_period": "2021",
       "end_period": "2021",
       "location": "remote",
-      "description": [""]
+      "description": [""],
+      "important": true
     }
   ],
 
@@ -63,7 +68,8 @@
         "Benchmarking, created battle cards and sales points",
         "Coordinated events linked to my products and gave presentations (trade fairs, road show, customer presentation ...) and ave presentations of products and new releases in form of conferences or personal selling.",
         "Was the principal contact for sales operations team regarding end users and resellers promotions cash flows"
-      ]
+      ],
+      "important": false
     },
     {
       "_id": "2",
@@ -80,7 +86,8 @@
         "3rd Assignment (06/17-09/17) : Sustainability & Guest Experience - Palma de Mallorca, Spain",
         "4th Assignment (09/17-11/17) : Team Leader Assignment - Malta",
         "5th Assignment (11/17-31/03) : Product - Paris, France"
-      ]
+      ],
+      "important": false
     },
     {
       "_id": "3",
@@ -94,7 +101,8 @@
         "Replacement of two long haul product managers for 9 months (balnearic stays in Dominican Republic, french Antilles and Caribbean islands)",
         "Product Manager for balnearic stays in Vietnam, Cambodia & Bahamas",
         "Product Manager Assistant for roundtrips in Asia and for balnearic stays in the Dominican Republic & Cuba"
-      ]
+      ],
+      "important": false
     }
   ],
 
@@ -103,49 +111,85 @@
       "_id": "1",
       "name": "HTML & CSS",
       "description": [""],
-      "important":true
+      "important": false
     },
     {
       "_id": "2",
       "name": "Javascript",
       "description": [""],
-      "important":true
+      "important": true
     },
     {
       "_id": "3",
       "name": "React",
       "description": [""],
-      "important":true
+      "important": true
     },
     {
       "_id": "4",
       "name": "Redux",
       "description": [""],
-      "important":true
+      "important": false
     },
     {
       "_id": "5",
       "name": "Node.js",
       "description": ["Express"],
-      "important":true
+      "important": true
     },
     {
       "_id": "6",
       "name": "PostgreSQL",
       "description": [""],
-      "important":true
+      "important": false
     },
     {
       "_id": "7",
       "name": "MongoDB",
       "description": [""],
-      "important":true
+      "important": false
     },
     {
       "_id": "8",
       "name": "Git",
       "description": [""],
-      "important":true
+      "important": false
+    },
+    {
+      "_id": "9",
+      "name": "Express",
+      "description": [""],
+      "important": false
+    },
+    {
+      "_id": "10",
+      "name": "Heroku",
+      "description": [""],
+      "important": false
+    },
+    {
+      "_id": "11",
+      "name": "Netlify",
+      "description": [""],
+      "important": false
+    },
+    {
+      "_id": "12",
+      "name": "JWT",
+      "description": [""],
+      "important": false
+    },
+    {
+      "_id": "13",
+      "name": "Insomnia",
+      "description": [""],
+      "important": false
+    },
+    {
+      "_id": "14",
+      "name": "Sequelize",
+      "description": [""],
+      "important": false
     }
   ],
 
@@ -158,7 +202,8 @@
       "description": [
         "EXPERT level - Complete mastery of best practices and associated vocabulary. Sufficient level of expertise to become a referent and trainer on Web quality.",
         "Certificate reference: ZI7UB3"
-      ]
+      ],
+      "important": true
     },
 
     {
@@ -166,14 +211,16 @@
       "name": "TOEFL",
       "year": "2014",
       "score": "106/120",
-      "description": []
+      "description": [],
+      "important": false
     },
     {
       "_id": "3",
       "name": "Widaf",
       "year": "2010",
       "score": "895/990",
-      "description": []
+      "description": [],
+      "important": false
     }
   ],
 

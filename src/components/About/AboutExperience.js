@@ -40,38 +40,42 @@ function AboutExperience() {
     <>
       <div className="experience__container">
         <div className="experience__items">
-          {data.experiences.slice(0).reverse().map((experience, index) => {
-            return (
-              <div className="experience__item" key={experience._id}>
-                <h4
+          {data.experiences
+            .slice(0)
+            .reverse()
+            .map((experience, index) => {
+              return (
+                <div
                   className={
                     currentExperienceVisible &&
                     currentExperienceId === experience._id
-                      ? "experience__item__title underlined"
-                      : "experience__item__title"
+                      ? "experience__item--important"
+                      : "experience__item"
                   }
+                  key={experience._id}
                 >
-                  {experience.position}
-                </h4>
+                  <h4 className="experience__item__title">
+                    {experience.position}
+                  </h4>
 
-                <div className="experience__infos">
-                  <div className="experience__infos__basic">
-                    <p className="experience__infos__text">
-                      {experience.start_period} - {experience.end_period}{" "}
-                    </p>
-                    <p className="experience__infos__text">
-                    {experience.company} • {experience.location}{" "}
-                    </p>
+                  <div className="experience__infos">
+                    <div className="experience__infos__basic">
+                      <p className="experience__infos__text">
+                        {experience.start_period} - {experience.end_period}{" "}
+                      </p>
+                      <p className="experience__infos__text">
+                        {experience.company} • {experience.location}{" "}
+                      </p>
+                    </div>
+
+                    <BsArrowRightCircle
+                      className="experience__infos__icon"
+                      onClick={() => handleClick(experience._id)}
+                    />
                   </div>
-
-                  <BsArrowRightCircle
-                    className="experience__infos__icon"
-                    onClick={() => handleClick(experience._id)}
-                  />
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
 
         {currentExperienceVisible && (

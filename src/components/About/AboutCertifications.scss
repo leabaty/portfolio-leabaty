@@ -7,7 +7,7 @@
 
   &__item {
     text-align: right;
-    border-right: 1px solid var(--lightpink);
+    border-right: 1px solid var(--mustard);
     padding-right: 10px;
     width: 65%;
     margin-bottom: 10px;
@@ -19,6 +19,16 @@
       line-height: 20px;
       font-size: 0.9rem;
     }
+  }
+
+  &__item--important {
+    text-align: right;
+    border-radius: 10px;
+    background: var(--mustard);
+    color: var(--beige);
+    padding: 10px;
+    width: 65%;
+    margin-bottom: 10px;
   }
 
   &__infos {
@@ -34,6 +44,14 @@
     &__text {
       margin: 5px 0;
       line-height: 20px;
+    }
+
+    &__description{
+      margin: 5px 0;
+      line-height: 20px;
+      font-size: 0.9em;
+      font-weight: 300;
+      letter-spacing: 0.2px;
     }
   }
 }
@@ -51,7 +69,6 @@
       padding-right: 0;
       border-left: 1px solid var(--lightpink);
       padding-left: 10px;
-      
     }
   }
 }

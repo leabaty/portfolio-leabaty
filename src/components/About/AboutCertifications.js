@@ -10,8 +10,15 @@ function AboutCertifications() {
       <div className="certifications__container">
         {data.certifications.map((certification, index) => {
           return (
-            <div key={certification._id} className="certifications__item">
-              <p  className="certifications__item__title">
+            <div
+              key={certification._id}
+              className={
+                certification.important === true
+                  ? "certifications__item--important"
+                  : "certifications__item"
+              }
+            >
+              <p className="certifications__item__title">
                 {certification.name}
               </p>
               <p className="certifications__infos__text">
@@ -20,7 +27,7 @@ function AboutCertifications() {
               </p>
 
               {certification.description.map((item) => {
-                return <p key={item}>{item}</p>;
+                return <p className="certifications__infos__description" key={item}>{item}</p>;
               })}
             </div>
           );
