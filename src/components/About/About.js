@@ -17,7 +17,7 @@ function About() {
     <>
       <div className="page">
         <div className="container">
-          <h1 className="title">About me</h1>
+          {/* <h1 className="title">Everything about me</h1> */}
 
           <section className="about__section">
             <div className="about__element">

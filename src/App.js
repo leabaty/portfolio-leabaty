@@ -16,6 +16,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
+import AboutDesktop from "./components/About/AboutDesktop/AboutDesktop";
 
 function App() {
   const anchors = ["Home", "Work", "About", "Contact"];
@@ -41,9 +42,9 @@ function App() {
                 <Work />
                 </div>
 
-                {/* <div className="section">
-                  <Work />
-                </div> */}
+                <div className="section">
+                  <AboutDesktop />
+                </div>
 
                 <div className="section">
                   <About />

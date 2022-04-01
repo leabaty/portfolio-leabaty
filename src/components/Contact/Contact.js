@@ -99,6 +99,13 @@ function Contact() {
         <div className="container">
           <h1 className="title">Contact</h1>
 
+          <p className="contact__intro">
+            Interested in knowing more ? <br/> Want to discuss a website idea or 
+            share a position that I could be interested of ? <br/> Or do you just
+            want a picture of my cat to prove it's the most beautiful one ? <br/> <span className="contact__intro--bold">Drop me a message ! I’ll get back to you
+            very soon. </span>{" "}
+          </p>
+
           {!sent ? (
             <form className="form" onSubmit={handleSubmit}>
               <ContactBase
@@ -110,9 +117,7 @@ function Contact() {
               <ContactInfo handleChange={handleChange} formData={formData} />
 
               {Object.keys(formErrors).length !== 0 ? (
-                <p>
-                  ⚠️ The form contains errors, please check your input.
-                </p>
+                <p>⚠️ The form contains errors, please check your input.</p>
               ) : (
                 ""
               )}
@@ -122,14 +127,13 @@ function Contact() {
     CONDITION 2 : Le formulaire contient des erreurs, on affiche un message d'erreur + le formulaire
     
     CONDITION 3 : Le formulaire est envoyé et ne contient pas d'erreur, on affiche un message de confirmation*/}
-    
             </form>
           ) : (
             <div>
               <p className="text">
-              Thank you, your request has been sent to me. <br />
-                 You will receive an answer very soon at the email address
-                 indicated. I wish you a nice day ! ☀️ <br /> 
+                Thank you, your request has been sent to me. <br />
+                You will receive an answer very soon at the email address
+                indicated. I wish you a nice day ! ☀️ <br />
               </p>
 
               <Link to="/">
@@ -140,9 +144,7 @@ function Contact() {
             </div>
           )}
         </div>
-
       </div>
-
     </>
   );
 }
