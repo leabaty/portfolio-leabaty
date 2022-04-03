@@ -3,11 +3,10 @@ import React from "react";
 function PrivacyPolicy() {
   return (
     <>
-      <div className="page">
+      <div className="page legal__page">
         <h1 className="title">
           Politique de confidentialité
         </h1>
-        <hr className="title-rule" />
 
         <article className="legal__article">
           <p className="text">

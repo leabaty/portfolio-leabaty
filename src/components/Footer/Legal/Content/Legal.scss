@@ -1,4 +1,9 @@
 .legal {
+  &__page{
+    min-height: 80vh;
+    padding-top: 100px;
+  }
+
   &__section {
     display: flex;
     flex-direction: row;
@@ -32,6 +37,10 @@
     width: 70%;
     margin: 50px auto;
     text-align: left;
+  }
+
+  &__notice {
+    margin-top: 20px;
   }
 
 }
