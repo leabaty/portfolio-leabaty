@@ -5,7 +5,7 @@ import "./Legal.scss";
 function LegalNotice() {
   return (
     <>
-      <body className="page">
+      <div className="page">
         <h1 className="title">Mentions Légales</h1>
         <hr className="title-rule" />
 
@@ -61,7 +61,7 @@ function LegalNotice() {
             </p>
           </section>
         </article>
-      </body>
+      </div>
     </>
   );
 }

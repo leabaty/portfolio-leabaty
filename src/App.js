@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import "../node_modules/fullpage.js/vendors/scrolloverflow.min.js";
 import ReactFullpage from "@fullpage/react-fullpage";
@@ -17,6 +17,10 @@ import AboutDetail from "./components/About/AboutDetail/AboutDetail";
 import AboutIntro from "./components/About/AboutIntro/AboutIntro";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
+
+import PrivacyPolicy from "./components/Footer/Legal/Content/PrivacyPolicy";
+import LegalNotice from "./components/Footer/Legal/Content/LegalNotice";
+// import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   const anchors = ["Home", "Work", "About", "Resume", "Contact", "Bottom"];
@@ -63,6 +67,13 @@ function App() {
             );
           }}
         />
+
+        <Routes>
+          <Route path="/legal-notice" element={<LegalNotice />}></Route>
+          <Route path="/privacy-policy" element={<PrivacyPolicy />}></Route>
+          {/* <Route path="*" element={<NotFound />}></Route> */}
+        </Routes>
+
       </Router>
     </div>
   );

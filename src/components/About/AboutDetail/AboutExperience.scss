@@ -66,11 +66,33 @@
 }
 
 @media screen and (max-width: 1200px) {
-
   .experience {
     &__detail {
       width: 60%;
       margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .experience {
+    &__item {
+      margin-bottom: 30px;
+      width: 98%;
+      font-size: 16px;
+    }
+
+    &__infos {
+      &__text {
+        margin: 5px 0;
+        line-height: 20px;
+        font-size: 14px;
+      }
+    }
+
+    &__detail {
+      width: 87%;
+      margin-left: 30px;
     }
   }
 }

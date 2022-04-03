@@ -8,18 +8,18 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
 function Footer() {
+
   return (
     <footer className="footer__container">
       <div className="footer__content">
         <div className="footer__link__wrapper">
-          <h2 className="footer__title">About</h2>
+          <h2 className="footer__title">A propos</h2>
 
           <div className="footer__links">
             <div className="footer__link__items">
-              <Link to="/legal-notice">Legal Notice</Link>
-
-              <Link to="/privacy-policy">
-                Privacy Policy
+              <Link to="/mentions-legales">Mentions Légales</Link>
+              <Link to="/politique-de-confidentialite">
+                Politique de confidentialité
               </Link>
             </div>
           </div>

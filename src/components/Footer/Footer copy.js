@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import useModal from "../../utils/useModal";
+import Modal from "./Legal/Modal/Modal";
+
 import "./Footer.scss";
 
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -8,18 +11,23 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
 function Footer() {
+  const { isShowing, toggle } = useModal();
+
   return (
     <footer className="footer__container">
       <div className="footer__content">
         <div className="footer__link__wrapper">
-          <h2 className="footer__title">About</h2>
+          <h2 className="footer__title">A propos</h2>
 
           <div className="footer__links">
             <div className="footer__link__items">
-              <Link to="/legal-notice">Legal Notice</Link>
-
-              <Link to="/privacy-policy">
-                Privacy Policy
+              {/* <button className="modal-toggle" onClick={toggle}>
+                Mentions Légales
+              </button>
+              <Modal isShowing={isShowing} hide={toggle} /> */}
+              <Link to="/mentions-legales">Mentions Légales</Link>
+              <Link to="/politique-de-confidentialite">
+                Politique de confidentialité
               </Link>
             </div>
           </div>

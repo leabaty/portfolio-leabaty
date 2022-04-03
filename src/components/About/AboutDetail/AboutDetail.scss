@@ -25,10 +25,11 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 960px) {
   .about {
     &__section {
     flex-direction: column;
+    padding-bottom: 30px;
   }
 
   &__element {
@@ -38,6 +39,7 @@
   &__sub-element {
     text-align: center;
     align-items: center;
+    margin-top: 30px;
   }
 }
 }

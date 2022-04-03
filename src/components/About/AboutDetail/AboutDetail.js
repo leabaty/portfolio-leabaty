@@ -10,7 +10,6 @@ import AboutCertifications from "./AboutCertifications.js";
 import AboutLanguages from "./AboutLanguages";
 
 function About() {
-
   //if window resize <769, then show mobile view. (Web Skills, Education, Langages, Certifications, Work Experience)
   // if window >769, then show Desktop view (50/50 with work experience)
   return (
@@ -38,11 +37,11 @@ function About() {
             </div>
           </section>
 
-          <h2 className="title--small about__title">Work Experience</h2>
-          <AboutExperience />
-
           <h2 className="title--small about__title">I speak...</h2>
           <AboutLanguages />
+
+          <h2 className="title--small about__title">Work Experience</h2>
+          <AboutExperience />
         </div>
       </div>
     </>
