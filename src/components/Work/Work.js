@@ -1,10 +1,12 @@
 import ProjectSlider from "./Project/ProjectSlider.js";
 
 import "./Work.scss"
+import WorkBg from "./WorkBackground"
 
 function Work() {
   return (
     <>
+    <WorkBg/>
       <div className="page">
         <div className="container">
         <div className="work__container">

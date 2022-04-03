@@ -25,7 +25,7 @@ function Navbar() {
           {/* Mobile navbar ONLY */}
           <div className="mobilemenu__navbar">
             <div className="mobilemenu__logo">
-              <Link to="/" className="navbar__title" onClick={closeMobileMenu}>
+              <Link to="/#Home" className="navbar__title" onClick={closeMobileMenu}>
                 <img className="navbar__icon" src={logo} alt="logo-lea-baty" />
               </Link>
             </div>
@@ -42,7 +42,7 @@ function Navbar() {
           >
             {/* Logo on the left of navbar in desktop mode ONLY */}
             <div className="navbar__menu__left">
-              <Link to="/" className="navbar__title" onClick={closeMobileMenu}>
+              <Link to="/#Home" className="navbar__title" onClick={closeMobileMenu}>
                 <img className="navbar__icon" src={logo} alt="logo-lea-baty" />
               </Link>
             </div>
@@ -51,7 +51,7 @@ function Navbar() {
             <ul className="navbar__menu__right">
               <li className="nav-item">
                 <Link
-                  to="/work"
+                  to="/#Work"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -61,7 +61,7 @@ function Navbar() {
 
               <li className="nav-item">
                 <Link
-                  to="/about"
+                  to="/#About"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -71,7 +71,7 @@ function Navbar() {
 
               <li className="nav-item">
                 <Link
-                  to="/contact"
+                  to="/#Contact"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
