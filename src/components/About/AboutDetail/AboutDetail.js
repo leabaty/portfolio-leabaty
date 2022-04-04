@@ -9,7 +9,7 @@ import AboutSkills from "./AboutSkills.js";
 import AboutCertifications from "./AboutCertifications.js";
 import AboutLanguages from "./AboutLanguages";
 
-function About() {
+function AboutDetail() {
   //if window resize <769, then show mobile view. (Web Skills, Education, Langages, Certifications, Work Experience)
   // if window >769, then show Desktop view (50/50 with work experience)
   return (
@@ -48,4 +48,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutDetail;

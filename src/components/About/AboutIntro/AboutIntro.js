@@ -11,7 +11,7 @@ import {
 import "./AboutIntro.scss";
 import aboutMeImg from "../../../assets/images/about-illustration.svg";
 
-function AboutDesktop() {
+function AboutIntro() {
   return (
     <>
       <div className="page">
@@ -95,4 +95,4 @@ function AboutDesktop() {
   );
 }
 
-export default AboutDesktop;
+export default AboutIntro;

@@ -1,29 +1,19 @@
-:root {
-  --coeff1: 5%;
-  --coeff2: 8%;
-  --coeff3: 10%;
-  --coeff4: 15%;
-  --coeff5: 20%;
-  --coeff6: 25%;
-  --coeff7: 30%;
-}
-
 .form-container--nav {
   position: absolute;
-  z-index: 0;
   height: 100%;
   width: 100%;
 }
 
-
 .tn1 {
   position: absolute;
+  z-index: 1;
   left: -200px;
   top: -300px;
 }
 
 .tn2 {
   position: absolute;
+  z-index: 1;
   right: -40px;
   top: -200px;
 }
@@ -67,8 +57,8 @@
 
 @media screen and (max-width: 320px) {
   .tn1 {
-    left: -75px;
-    top: -125px;
+    left: -60px;
+    top: -120px;
   }
 
   .tn2 {

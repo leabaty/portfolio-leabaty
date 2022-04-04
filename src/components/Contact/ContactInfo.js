@@ -17,7 +17,7 @@ function ContactInfo({ handleChange, formData }) {
           />
         </div>
 
-        <button className="btn btn--full btn--large btn--darkred-lg">
+        <button className="btn btn--full btn--large btn--darkred-sm">
           Send !
         </button>
       </div>

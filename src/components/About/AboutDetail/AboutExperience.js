@@ -105,6 +105,7 @@ function AboutExperience() {
                         ? "experience__item--important"
                         : "experience__item"
                     }
+                    onClick={() => handleClick(experience._id)}
                     key={experience._id}
                   >
                     <h4 className="experience__item__title">
@@ -123,7 +124,6 @@ function AboutExperience() {
 
                       <BsArrowRightCircle
                         className="experience__infos__icon"
-                        onClick={() => handleClick(experience._id)}
                       />
                     </div>
                   </div>

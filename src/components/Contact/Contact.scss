@@ -1,10 +1,13 @@
-.contact__intro {
+.contact {
+  padding-bottom: 50px;
+  &__intro {
   margin: 0 auto;
   width: 60%;
   line-height: 20px;
   &--bold {
     font-weight: 500;
   }
+}
 }
 
 .form {
@@ -48,9 +51,9 @@
   color: var(--lightpink);
 }
 
-// .--base {
-//   width: 480px;
-// }
+.--base {
+  width: 480px;
+}
 
 .--text {
   width: 500px;

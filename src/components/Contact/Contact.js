@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import ContactBase from "./ContactBase";
 import ContactInfo from "./ContactInfo";
 
+import ContactBg from "./ContactBackground";
+
 import "./Contact.scss";
 
 function Contact() {
@@ -86,6 +88,8 @@ function Contact() {
 
   return (
     <>
+
+    <ContactBg/>
       {/*FORMULAIRE DE BASE*/}
 
       <div className="page">
@@ -103,7 +107,7 @@ function Contact() {
           </p>
 
           {!sent ? (
-            <form className="form" onSubmit={handleSubmit}>
+            <form className="contact" onSubmit={handleSubmit}>
               <ContactBase
                 handleChange={handleChange}
                 formData={formData}

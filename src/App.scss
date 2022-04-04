@@ -97,6 +97,118 @@ table {
   width: 80vw;
 }
 
+.btn {
+  margin: 15px auto;
+  cursor: pointer;
+
+  &--green-lg {
+    background: url("./assets/images/buttons/green-button-lg.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--green-sm {
+    background: url("./assets/images/buttons/green-button.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--darkred-sm {
+    background: url("./assets/images/buttons/darkred-button.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--pink-sm {
+    background: url("./assets/images/buttons/pink-button.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--pink-lg {
+    background: url("./assets/images/buttons/pink-button-lg.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--mustard-lg {
+    background: url("./assets/images/buttons/mustard-button-lg.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--mustard-sm {
+    background: url("./assets/images/buttons/mustard-button.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--darkred-lg {
+    background: url("./assets/images/buttons/darkred-button-lg.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--handwritten {
+    font-family: "friendly_schoolmatesregular", cursive;
+  }
+
+  &--large {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+
+  &--medium {
+    padding: 8px 25px;
+    font-size: 1.1rem;
+  }
+
+  &--small {
+    padding: 6px 20px;
+    font-size: 1rem;
+  }
+}
+
 .bgc1{
   background-color: red;
 }
