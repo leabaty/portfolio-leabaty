@@ -1,0 +1,78 @@
+:root {
+  --coeff1: 5%;
+  --coeff2: 8%;
+  --coeff3: 10%;
+  --coeff4: 15%;
+  --coeff5: 20%;
+  --coeff6: 25%;
+  --coeff7: 30%;
+}
+
+.form-container--nav {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+.tn1 {
+  position: absolute;
+  left: -200px;
+  top: -300px;
+}
+
+.tn2 {
+  position: absolute;
+  right: -40px;
+  top: -200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .tn1 {
+    left: -175px;
+    top: -250px;
+  }
+
+  .tn2 {
+    top: -170px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .tn1 {
+    left: -150px;
+    top: -225px;
+  }
+
+  .tn2 {
+    right: -175px;
+    top: -170px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tn1 {
+    left: -100px;
+    top: -150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .tn2 {
+    right: -225px;
+    top: -170px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tn1 {
+    left: -75px;
+    top: -125px;
+  }
+
+  .tn2 {
+    right: -225px;
+    top: -170px;
+  }
+}

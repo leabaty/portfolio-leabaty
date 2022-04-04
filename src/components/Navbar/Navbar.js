@@ -6,6 +6,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 import "./Navbar.scss";
 
+import NavbarBg from "./NavbarBackground"
 import logo from "../../assets/images/logo/logo-white-transparent.svg";
 
 function Navbar() {
@@ -19,6 +20,7 @@ function Navbar() {
 
   return (
     <>
+     <NavbarBg/>
       <nav className="navbar">
         <div className="navbar__container">
 

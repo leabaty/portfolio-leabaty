@@ -10,6 +10,7 @@
 .form {
   &__base {
     padding: 20px 0 0;
+    margin: auto;
   }
   &__information {
     width: 80vw;
@@ -47,9 +48,9 @@
   color: var(--lightpink);
 }
 
-.--base {
-  width: 480px;
-}
+// .--base {
+//   width: 480px;
+// }
 
 .--text {
   width: 500px;

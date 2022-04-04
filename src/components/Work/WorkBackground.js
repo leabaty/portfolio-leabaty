@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./WorkBackground.scss";
+import "./../AppBackground.scss";
 
 import greenSquarey from "./../../assets/images/forms/green-squarey.svg";
 import mustardOvaley from "./../../assets/images/forms/mustard-ovaley.svg";
