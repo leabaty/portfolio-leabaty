@@ -7,13 +7,9 @@ import data from "../../../data/about-en.json";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 function AboutExperience() {
-  const [currentExperienceVisible, setCurrentExperienceVisible] =
-    useState(false);
-  const [currentExperienceId, setCurrentExperienceId] = useState();
+  const [currentExperience, setCurrentExperience] = useState(true);
+  const [currentExperienceId, setCurrentExperienceId] = useState("3");
   const [currentExperienceDetails, setCurrentExperienceDetails] = useState([]);
-
-  // PREVENT FIRST RENDER
-  const firstRender = useRef(true);
 
   // --------- DESKTOP OR MOBILE MODE ? ------------ //
 
@@ -38,7 +34,7 @@ function AboutExperience() {
   // to show the corresponding experience, we put the current experience's id in the state and we allow it to be visible/invisible when clicked/unclicked on the button
   const handleClick = (id) => {
     setCurrentExperienceId(id);
-    setCurrentExperienceVisible(!currentExperienceVisible);
+    setCurrentExperience(true);
   };
 
   // we put in an array the details of the matching experience thanks to the experience's id
@@ -51,10 +47,6 @@ function AboutExperience() {
 
   // we prevent the first render (because there is no matching experience first) and each time the experience's id changes, we update the array with the correct data
   useEffect(() => {
-    if (firstRender.current) {
-      firstRender.current = false;
-      return;
-    }
     getCurrentExperience(currentExperienceId, data.experiences);
   }, [currentExperienceId]);
 
@@ -108,7 +100,7 @@ function AboutExperience() {
                 return (
                   <div
                     className={
-                      currentExperienceVisible &&
+                      currentExperience &&
                       currentExperienceId === experience._id
                         ? "experience__item--important"
                         : "experience__item"
@@ -139,7 +131,7 @@ function AboutExperience() {
               })}
           </div>
 
-          {currentExperienceVisible && (
+          {currentExperience && (
             <ul className="experience__detail">
               {currentExperienceDetails.map((item) => {
                 return (
