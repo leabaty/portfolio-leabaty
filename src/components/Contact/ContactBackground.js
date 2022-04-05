@@ -8,7 +8,7 @@ import greenPotato from "./../../assets/images/forms/green-potatoey.svg";
 import pinkOvaley from "./../../assets/images/forms/pink-ovaley.svg";
 
 
-function ContactBg() {
+function ContactBackground() {
   return (
     <div className="form-container">
 
@@ -20,4 +20,4 @@ function ContactBg() {
   );
 }
 
-export default ContactBg;
+export default ContactBackground;

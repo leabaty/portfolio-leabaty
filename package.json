@@ -15,6 +15,7 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
+    "react-spring": "^9.4.4",
     "sass": "^1.49.10",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
