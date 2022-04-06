@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Description of the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio, allowing me to share easily all the projects I've done so far !
 
-## Available Scripts
+## Languages used
 
-In the project directory, you can run:
+JS, React, Node.js for Nodemailer (the contact form).
 
-### `npm start`
+### Use of external librairies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Client side :
+- Fullpage.js for the fullpage effect/navigation dots
+- React Icons for the small icons across the webpage
+- React Slick/Slick Carousel for the "Work" carousel
+- React Spring for the mouse parallax effect on the forms
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+More generally, Axios is used for the link with the API and SASS for better CSS structuring.
 
-### `npm test`
+#### Server side : 
+- Nodemailer for the handling of emails linked with the contact form 
+- Handlebars for the templating of emails
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Specifics to the project
 
-### `npm run build`
+### SCSS Naming
+95% of the naming is based on the BEM approach. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Background forms 
+On the components that display forms, there is an additional component/page dedicated to the background styling that is bearing the forms. 
+Form classes are named after their : "Location on page - Component - Position order from left to right".
+For example : bh1 = bottom home 1, tn2 top navbar 2... etc. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Font Use 
+There is a custom font for the titles in this project : Friendly Schoolmates. All rights to Situjuh (7NTypes). 
+The secondary font is Jost (Google fonts). 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Images' rights 
+The image in "About" is based on the work of pch.vector, found on the website freepik.com (https://fr.freepik.com/vecteurs-libre/site-web-programmation-petits-developpeurs-pour-illustration-vectorielle-plane-plate-forme-internet-programmeurs-dessins-animes-pres-ecran-code-ouvert-script-developpement-logiciels-concept-technologie-numerique_10613714.htm#query=developer&position=2&from_view=author) and readapted with AI for the use of this portfolio.

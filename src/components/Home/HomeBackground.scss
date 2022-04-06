@@ -1,4 +1,4 @@
-.card4{
+.card4 {
   position: absolute;
   border-radius: 5px;
   background-size: cover;
@@ -8,9 +8,8 @@
 
   width: 700px;
   height: 25ch;
-  background-image: url(https://www.vhv.rs/dpng/f/457-4577783_moon-icon-png.png)
+  background-image: url(https://www.vhv.rs/dpng/f/457-4577783_moon-icon-png.png);
 }
-
 
 .bh1 {
   position: absolute;
@@ -22,6 +21,8 @@
   position: absolute;
   left: -50px;
   bottom: -120px;
+  transition: all 1.1s ease-out;
+  -webkit-transition: all 1.1s ease-out;
 }
 
 .bh3 {
@@ -54,6 +55,21 @@
   position: absolute;
   left: -10px;
   bottom: -30px;
+}
+
+.fp-viewing-Work .bh2 {
+  visibility: hidden;
+}
+
+.fp-viewing-Work .bh3 {
+  visibility: hidden;
+}
+
+.fp-viewing-Work .bh4 {
+  visibility: hidden;
+}
+.fp-viewing-Work .bh5 {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 1024px) {
