@@ -1,5 +1,8 @@
 .contact {
+  position:relative;
+  z-index: 10;
   padding-bottom: 50px;
+
   &__intro {
   margin: 0 auto;
   width: 60%;

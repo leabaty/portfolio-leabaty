@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 import ContactBase from "./ContactBase";
 import ContactInfo from "./ContactInfo";
-
 import ContactBg from "./ContactBackground";
 
 import "./Contact.scss";
