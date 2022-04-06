@@ -14,9 +14,9 @@ function PrivacyPolicy() {
         <article className="legal__article">
           <p className="text">
             Cette Politique de confidentialité s’applique au site :
-            www.apsara-yoga.com. Elle décrit nos procédures sur la collecte,
+            www.leabaty.com. Elle décrit les procédures sur la collecte,
             l’utilisation et la diffusion de vos données personnelles lorsque
-            vous utilisez notre site internet. Pour cela, nous vous informons à
+            vous utilisez ce site internet. Pour cela, nous vous informons à
             propos de :
           </p>
 
@@ -25,9 +25,9 @@ function PrivacyPolicy() {
               - La manière dont sont collectées et traitées les données à
               caractère personnel. Doivent être considérées comme données
               personnelles toutes les données étant susceptibles d’identifier un
-              utilisateur. Il s’agit notamment du prénom et du nom, de l’âge, de
-              l’adresse postale, l’adresse mail, la localisation de
-              l’utilisateur,
+              utilisateur. Il s’agit notamment du prénom et du nom, de l’adresse
+              mail, et du téléphone de l'utilisateur quand celui-ci envoie un
+              message à l'aide du formulaire de contact.
             </li>
             <li className="legal__bullet">
               - Quels sont les droits des utilisateurs concernant ces données ;
@@ -46,12 +46,12 @@ function PrivacyPolicy() {
 
           <p className="text">
             Nous utilisons vos données personnelles pour fournir et améliorer
-            nos services. En vous rendant sur www.apsara-yoga.com , vous
-            acceptez la collecte et l’utilisation des informations conformément
-            à la présente Politique de confidentialité. Les données collectées
-            sont sauvegardées dans un fichier informatisé par Apsara Yoga. Les
-            renseignements rassemblés seront communiqués aux seuls destinataires
-            suivants : Apsara Yoga. Ces données feront l’objet de traitement.
+            nos services. En vous rendant sur www.leabaty.com , vous acceptez la
+            collecte et l’utilisation des informations conformément à la
+            présente Politique de confidentialité. Les données collectées sont
+            sauvegardées dans un fichier informatisé par Léa Baty. Les
+            renseignements rassemblés ne seront jamais communiqués à des tiers.
+            Ces données feront l’objet de traitement.
           </p>
 
           <p className="text">
@@ -60,7 +60,7 @@ function PrivacyPolicy() {
             et exercer votre droit à la limitation du traitement. Vous pourrez
             exercer ces droits à tout moment. Pour cela, vous pouvez contacter
             la responsable du traitement de données par mail à :
-            apsara-yoga@gmail.com
+            leabaty.dev@gmail.com
           </p>
 
           <p className="text">
@@ -85,7 +85,8 @@ function PrivacyPolicy() {
 
           <p className="text">
             Types de données collectées : Nom, prénom, adresse électronique,
-            numéro de téléphone. Les données d’utilisation peuvent inclure des
+            numéro de téléphone lors de l'envoi d'un message à l'aide du
+            formulaire de contact. Les données d’utilisation peuvent inclure des
             informations telles que le type de navigateur, la version du
             navigateur, les pages de notre service que vous visitez, l’heure et
             la date de votre visite, le temps passé sur ces pages, les
@@ -118,7 +119,7 @@ function PrivacyPolicy() {
             tous les cookies ou d’indiquer quand un cookie est envoyé.
           </p> */}
 
-          <p className="text">Nous n'utilisons pas de cookies.</p>
+          <p className="text">Ce site n'utilise pas de cookies.</p>
         </article>
       </div>
     </>

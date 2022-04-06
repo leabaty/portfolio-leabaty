@@ -1,5 +1,3 @@
-# Description of the project
-
 This is my personal portfolio, allowing me to share easily all the projects I've done so far !
 
 ## Languages used

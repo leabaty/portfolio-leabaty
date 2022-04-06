@@ -7,7 +7,6 @@ import "./App.scss";
 import projectsData from "./data/projects-en.json";
 
 // COMPONENTS
-
 import Footer from "./components/Footer/Footer";
 
 import Home from "./components/Home/Home";

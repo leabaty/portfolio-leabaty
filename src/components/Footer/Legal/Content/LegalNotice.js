@@ -11,14 +11,14 @@ function LegalNotice() {
         <h1 className="title">Mentions Légales</h1>
 
         <article className="legal__notice">
-          <section className="legal__section">
+          {/* <section className="legal__section">
             <h1 className="title title--nano legal__title legal__item">
               Name
             </h1>{" "}
             <p className="text legal__text legal__item --border-left">
-              Evolutio <br /> Léa Baty
+              Evolutio, owner Léa Baty
             </p>{" "}
-          </section>
+          </section> */}
 
           <section className="legal__section">
             <h1 className="title title--nano legal__title legal__item">
@@ -35,7 +35,6 @@ function LegalNotice() {
               Company
             </h1>
             <p className="text legal__text legal__item --border-left">
-              10 rue de la Justice <br />
               75020 Paris <br />
               <br />
               SIREN XXXXXXX
@@ -44,7 +43,7 @@ function LegalNotice() {
 
           <section className="legal__section">
             <h1 className="title title--nano legal__title legal__item">
-              Publishing director
+              Design & Development
             </h1>
             <p className="text legal__text legal__item --border-left">
               Léa Baty
@@ -56,9 +55,11 @@ function LegalNotice() {
               Web host
             </h1>
             <p className="text legal__text legal__item --border-left">
-              OVH | Design by <a target="_blank">Léa Baty</a>
+              Netflify 
             </p>
           </section>
+
+
         </article>
       </div>
     </>
