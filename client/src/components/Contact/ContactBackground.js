@@ -2,7 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 import "./ContactBackground.scss";
-import "./../AppBackground.scss";
+import "../AppBackground.scss";
 
 import mustardOvaley from "./../../assets/images/forms/mustard-ovaley.svg";
 import greenPotato from "./../../assets/images/forms/green-potatoey.svg";

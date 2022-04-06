@@ -2,7 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 import "./NavbarBackground.scss";
-import "./../AppBackground.scss";
+import "../AppBackground.scss";
 
 import mustardOvaley from "./../../assets/images/forms/mustard-ovaley.svg";
 import pinkPotato from "./../../assets/images/forms/pink-potatoey.svg";

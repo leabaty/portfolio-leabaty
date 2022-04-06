@@ -2,7 +2,7 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 import "./HomeBackground.scss";
-import "./../AppBackground.scss";
+import "../AppBackground.scss";
 
 import greenSquarey from "./../../assets/images/forms/green-squarey.svg";
 import pinkSquareTriangley from "./../../assets/images/forms/pink-square-triangley.svg";

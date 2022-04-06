@@ -66,11 +66,13 @@ function Contact() {
     });
   };
 
+  //https://portfolio-leabaty.herokuapp.com/
+
   // SENDING PARAMETERS
   const sendData = async (URL) => {
     setSent(true);
     try {
-      await axios.post(`https://apsara-yoga.herokuapp.com/${URL}`, {
+      await axios.post(`http:/localhost:5000/${URL}`, {
         formData,
       });
     } catch (error) {
@@ -81,33 +83,31 @@ function Contact() {
   // FINALLY SENDING THIS EMAIL
   useEffect(() => {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-      sendData("api/v1/apsara-yoga/send_info_request");
-      sendData("api/v1/apsara-yoga/send_info_recap");
+      sendData("api/v1/portfolio/send_info_request");
+      sendData("api/v1/portfolio/send_info_recap");
     }
   }, [formErrors]);
 
   return (
     <>
-
-    <ContactBg/>
+      <ContactBg />
       {/*FORMULAIRE DE BASE*/}
 
       <div className="page">
         <div className="container">
           <h1 className="title">Contact</h1>
 
-          <p className="contact__intro">
-            Interested in knowing more ? <br /> Want to discuss a website idea
-            or share a position that I could be interested of ? <br /> Or do you
-            just want a picture of my cat to prove it's the most beautiful one ?{" "}
-            <br />{" "}
-            <span className="contact__intro--bold">
-              Drop me a message ! I’ll get back to you very soon.{" "}
-            </span>{" "}
-          </p>
-
           {!sent ? (
             <form className="contact" onSubmit={handleSubmit}>
+              <p className="contact__intro">
+                Interested in knowing more ? <br /> Want to discuss a website
+                idea or share a position that I could be interested of ? <br />{" "}
+                Or do you just want a picture of my cat to prove it's the most
+                beautiful one ? <br />{" "}
+                <span className="contact__intro--bold">
+                  Drop me a message ! I’ll get back to you very soon.{" "}
+                </span>{" "}
+              </p>
               <ContactBase
                 handleChange={handleChange}
                 formData={formData}
@@ -137,7 +137,7 @@ function Contact() {
               </p>
 
               <Link to="/">
-                <button className="btn btn--medium">
+                <button className="btn">
                   Take me back to the top ! ⛰️
                 </button>
               </Link>
