@@ -21,8 +21,8 @@
   position: absolute;
   left: -50px;
   bottom: -120px;
-  transition: all 1.1s ease-out;
-  -webkit-transition: all 1.1s ease-out;
+  transition: all 0.8s ease-out;
+  -webkit-transition: all 0.8s ease-out;
 }
 
 .bh3 {
@@ -30,6 +30,8 @@
   left: 200px;
   bottom: -150px;
   width: 300px;
+  transition: all 0.8s ease-out;
+  -webkit-transition: all 0.8s ease-out;
 }
 
 .bh4 {
@@ -37,12 +39,16 @@
   right: 120px;
   bottom: -150px;
   width: 350px;
+  transition: all 0.8s ease-out;
+  -webkit-transition: all 0.8s ease-out;
 }
 
 .bh5 {
   position: absolute;
   right: -150px;
   bottom: -100px;
+  transition: all 0.8s ease-out;
+  -webkit-transition: all 0.8s ease-out;
 }
 
 .ch1 {
@@ -58,18 +64,26 @@
 }
 
 .fp-viewing-Work .bh2 {
-  visibility: hidden;
+  bottom: 150px;
+  transition: all 1.1s ease-in-out;
+  -webkit-transition: all 1.1s ease-in-out;
 }
 
 .fp-viewing-Work .bh3 {
-  visibility: hidden;
+  bottom: 150px;
+  transition: all 1.1s ease-in-out;
+  -webkit-transition: all 1.1s ease-in-out;
 }
 
 .fp-viewing-Work .bh4 {
-  visibility: hidden;
+  bottom: 150px;
+  transition: all 1.1s ease-in-out;
+  -webkit-transition: all 1.1s ease-in-out;
 }
 .fp-viewing-Work .bh5 {
-  visibility: hidden;
+  bottom: 150px;
+  transition: all 1.1s ease-in-out;
+  -webkit-transition: all 1.1s ease-in-out;
 }
 
 @media screen and (max-width: 1024px) {
