@@ -30,6 +30,10 @@ On the components that display forms, there is an additional component/page dedi
 Form classes are named after their : "Location on page - Component - Position order from left to right".
 For example : bh1 = bottom home 1, tn2 top navbar 2... etc. 
 
+### Navbar management
+Due to the specificity of fullpage.js, I have two different navbars (with exact same design) depending on the location on the website. 
+There is a "fullpage.js navbar" with anchors, and a normal navbar working with links on normal pages (Legal Notice, Privacy Policy).
+
 ### Font Use 
 There is a custom font for the titles in this project : Friendly Schoolmates. All rights to Situjuh (7NTypes). 
 The secondary font is Jost (Google fonts). 
