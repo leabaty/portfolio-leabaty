@@ -1,12 +1,15 @@
 import React from "react";
 
+import "./Legal.scss";
+import Navbar from "../../../Navbar/Navbar";
+
 function PrivacyPolicy() {
   return (
     <>
+      <Navbar />
+
       <div className="page legal__page">
-        <h1 className="title">
-          Politique de confidentialité
-        </h1>
+        <h1 className="title">Politique de confidentialité</h1>
 
         <article className="legal__article">
           <p className="text">
@@ -33,8 +36,12 @@ function PrivacyPolicy() {
               - Qui est responsable du traitement des données à caractère
               personnel collectées et traitées ;
             </li>
-            <li className="legal__bullet">- A qui ces données sont transmises ;</li>
-            <li className="legal__bullet">- La politique du site en matière de fichiers « cookies »</li>
+            <li className="legal__bullet">
+              - A qui ces données sont transmises ;
+            </li>
+            <li className="legal__bullet">
+              - La politique du site en matière de fichiers « cookies »
+            </li>
           </ul>
 
           <p className="text">
@@ -42,10 +49,9 @@ function PrivacyPolicy() {
             nos services. En vous rendant sur www.apsara-yoga.com , vous
             acceptez la collecte et l’utilisation des informations conformément
             à la présente Politique de confidentialité. Les données collectées
-            sont sauvegardées dans un fichier informatisé par Apsara Yoga.
-            Les renseignements rassemblés seront communiqués aux seuls
-            destinataires suivants : Apsara Yoga. Ces données feront
-            l’objet de traitement.
+            sont sauvegardées dans un fichier informatisé par Apsara Yoga. Les
+            renseignements rassemblés seront communiqués aux seuls destinataires
+            suivants : Apsara Yoga. Ces données feront l’objet de traitement.
           </p>
 
           <p className="text">
@@ -70,10 +76,9 @@ function PrivacyPolicy() {
             adresser une réclamation à la Commission nationale de l’Informatique
             et des Libertés ou CNIL, 3 Places de Fontenoy, 75007 Paris.
           </p>
+        </article>
 
-          </article>
-
-          <article className="legal__article">
+        <article className="legal__article">
           <h1 className="title title--nano">
             Collecte et utilisation de vos données personnelles
           </h1>
@@ -100,9 +105,9 @@ function PrivacyPolicy() {
             visitez notre service ou lorsque vous accédez au service par ou via
             un appareil mobile.
           </p>
-          </article>
+        </article>
 
-          <article className="legal__article">
+        <article className="legal__article">
           <h1 className="title title--nano">
             Technologies de suivi et cookies
           </h1>

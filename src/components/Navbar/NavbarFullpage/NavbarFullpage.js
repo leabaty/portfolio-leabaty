@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
-import "./Navbar.scss";
+import "../Navbar.scss";
 
-import NavbarBg from "./NavbarBackground";
-import logo from "../../assets/images/logo/logo-white-transparent.svg";
+import NavbarBg from "../NavbarBackground";
+import logo from "../../../assets/images/logo/logo-white-transparent.svg";
 
 function Navbar() {
   const [openedMobileMenu, setOpenMobileMenu] = useState(false);
@@ -18,7 +18,7 @@ function Navbar() {
   /* Quand l'utilisateur a cliqué sur un des liens, cela ferme le menu et présente à nouveau la navbar mobile*/
   const closeMobileMenu = () => {
     setOpenMobileMenu(false);
-  }
+  };
 
   return (
     <>
@@ -28,13 +28,13 @@ function Navbar() {
           {/* Mobile navbar ONLY */}
           <div className="mobilemenu__navbar">
             <div className="mobilemenu__logo">
-              <Link
-                to="/#Home"
+              <a
+                href="#Home"
                 className="navbar__title"
                 onClick={closeMobileMenu}
               >
                 <img className="navbar__icon" src={logo} alt="logo-lea-baty" />
-              </Link>
+              </a>
             </div>
 
             <div className="mobilemenu__button" onClick={handleClick}>
@@ -49,46 +49,42 @@ function Navbar() {
           >
             {/* Logo on the left of navbar in desktop mode ONLY */}
             <div className="navbar__menu__left">
-              <Link
-                to="/#Home"
+              <a
+                href="#Home"
                 className="navbar__title"
                 onClick={closeMobileMenu}
               >
                 <img className="navbar__icon" src={logo} alt="logo-lea-baty" />
-              </Link>
+              </a>
             </div>
 
             {/* Container on the right of navbar */}
             <ul className="navbar__menu__right">
               <li className="nav-item">
-                <Link
-                  to="/#Work"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#Work" className="nav-links" onClick={closeMobileMenu}>
                   Work
                   {/* <a href="#Work">Work</a> */}
-                </Link>
+                </a>
               </li>
 
               <li className="nav-item">
-                <Link
-                  to="/#About"
+                <a
+                  href="#About"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   About
-                </Link>
+                </a>
               </li>
 
               <li className="nav-item">
-                <Link
-                  to="/#Contact"
+                <a
+                  href="#Contact"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

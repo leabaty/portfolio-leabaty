@@ -15,14 +15,15 @@ import AboutDetail from "./components/About/AboutDetail/AboutDetail";
 import AboutIntro from "./components/About/AboutIntro/AboutIntro";
 import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
-
+import NavbarFullpage from "./components/Navbar/NavbarFullpage/NavbarFullpage"
 
 
 function FullPage() {
-  const anchors = ["Home", "Work", "About", "Resume", "Contact", "Bottom"];
+  const anchors = ["Home", "Work", "About", "Resume", "Contact", "To-Infinity-and-Beyond"];
 
   return (
     <div className="app">
+      <NavbarFullpage/>
         <ReactFullpage
           licenseKey={process.env.REACT_APP_FULLPAGE_LK}
           anchors={anchors}

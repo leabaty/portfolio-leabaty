@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // COMPONENTS
-import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import FullPage from "./FullPage";
@@ -17,8 +16,6 @@ function App() {
     <div className="app">
       <Router>
         <ScrollToTop />
-
-        <Navbar />
 
         <Routes>
           <Route path="/" element={<FullPage />}></Route>

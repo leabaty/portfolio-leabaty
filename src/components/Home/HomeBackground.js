@@ -11,6 +11,8 @@ import greenPotato from "./../../assets/images/forms/green-potatoey.svg";
 import pinkOvaley from "./../../assets/images/forms/pink-ovaley.svg";
 import leftStroke from "./../../assets/images/forms/left-stroke.svg";
 import rightStroke from "./../../assets/images/forms/right-stroke.svg";
+import LeftStroke from "./LeftStroke";
+import RightStroke from "./RightStroke";
 
 // 0 - USESPRING/MOUSE PARALLAX : params for the mouse parallax effect on the forms (cf. useSpring)
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
@@ -19,7 +21,6 @@ const trans2 = (x, y) => `translate3d(${x / -35}px,${y / -35}px,0)`;
 const trans3 = (x, y) => `translate3d(${x / 90}px,${y / 90}px,0)`;
 
 function HomeBackground() {
-
   // 1 - USESPRING/MOUSE PARALLAX : params for the mouse parallax effect on the forms (cf. useSpring)
   const [props, set] = useSpring(() => ({
     xy: [0, 0],
@@ -57,9 +58,10 @@ function HomeBackground() {
         style={{ transform: props.xy.to(trans2) }}
         src={greenPotato}
       />
-
       <img className="stroke ch1" src={leftStroke} />
       <img className="stroke ch2" src={rightStroke} />
+      {/* <LeftStroke />
+      <RightStroke /> */}
     </div>
   );
 }

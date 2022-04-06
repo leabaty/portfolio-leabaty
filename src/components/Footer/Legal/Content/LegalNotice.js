@@ -1,10 +1,12 @@
 import React from "react";
 
 import "./Legal.scss";
+import Navbar from "../../../Navbar/Navbar"
 
 function LegalNotice() {
   return (
     <>
+    <Navbar/>
       <div className="page legal__page">
         <h1 className="title">Mentions Légales</h1>
 
