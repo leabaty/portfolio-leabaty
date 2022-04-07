@@ -99,12 +99,12 @@
 @media screen and (max-width: 960px) {
   .bh1 {
     left: -40px;
-    bottom: calc(100px + var(--coeff3));
+    bottom: calc(100px + var(--coeff2));
   }
 
   .bh2 {
     left: -50px;
-    bottom: calc(-80px + var(--coeff3));
+    bottom: calc(-80px + var(--coeff2));
   }
 
   .bh3 {
@@ -114,14 +114,14 @@
   }
 
   .bh4 {
-    right: calc(120px - var(--coeff3));
+    right: calc(120px - var(--coeff4));
     bottom: calc(-150px + var(--coeff3));
     width: calc(350px - var(--coeff1));
   }
 
   .bh5 {
     right: -150px;
-    bottom: calc(-100px + var(--coeff5));
+    bottom: calc(-100px + var(--coeff2));
   }
 
   .ch1 {

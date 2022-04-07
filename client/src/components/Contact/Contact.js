@@ -71,7 +71,7 @@ function Contact() {
   const sendData = async (URL) => {
     setSent(true);
     try {
-      await axios.post(`http:/localhost:5000/${URL}`, {
+      await axios.post(`http://localhost:5000/${URL}`, {
         formData,
       });
     } catch (error) {
@@ -84,6 +84,7 @@ function Contact() {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       sendData("api/v1/portfolio/send_info_request");
       sendData("api/v1/portfolio/send_info_recap");
+      console.log("WHOUHOU, SENT TO THE BACK")
     }
   }, [formErrors]);
 
@@ -128,15 +129,15 @@ function Contact() {
     CONDITION 3 : Le formulaire est envoyé et ne contient pas d'erreur, on affiche un message de confirmation*/}
             </form>
           ) : (
-            <div>
+            <div className="contact" >
               <p className="text">
                 Thank you, your request has been sent to me. <br />
                 You will receive an answer very soon at the email address
-                indicated. I wish you a nice day ! ☀️ <br />
+                indicated. <br />I wish you a nice day ! ☀️ <br />
               </p>
 
               <Link to="/">
-                <button className="btn">
+                <button className="btn btn--full btn--large btn--back">
                   Take me back to the top ! ⛰️
                 </button>
               </Link>

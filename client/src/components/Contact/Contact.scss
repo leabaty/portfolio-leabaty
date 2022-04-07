@@ -6,7 +6,7 @@
   &__intro {
   margin: 0 auto;
   width: 60%;
-  line-height: 20px;
+  line-height: 25px;
   &--bold {
     font-weight: 500;
   }
@@ -39,6 +39,7 @@
   &__warning {
     color: darkred;
     text-align: center;
+    margin-top: 5px;
   }
   &__row-block {
     display: flex;
@@ -65,6 +66,54 @@
 
 label input {
   margin-right: 5px;
+}
+
+
+.btn {
+  margin: 15px auto;
+  cursor: pointer;
+
+
+  &--send {
+    background: url("./../../assets/images/buttons/contact-send.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--back {
+    background: url("./../../assets/images/buttons/contact-back.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--handwritten {
+    font-family: "friendly_schoolmatesregular", cursive;
+  }
+
+  &--large {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+
+  &--medium {
+    padding: 8px 25px;
+    font-size: 1.1rem;
+  }
+
+  &--small {
+    padding: 6px 20px;
+    font-size: 1rem;
+  }
 }
 
 .btn--back-to-menu {
