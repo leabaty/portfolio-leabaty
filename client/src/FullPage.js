@@ -2,6 +2,7 @@ import "fullpage.js/vendors/scrolloverflow.min";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 import "./App.scss";
+import "./FullPage.scss"
 
 //DATA
 import projectsData from "./data/projects-en.json";
