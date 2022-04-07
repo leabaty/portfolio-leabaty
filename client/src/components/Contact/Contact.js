@@ -136,11 +136,11 @@ function Contact() {
                 indicated. <br />I wish you a nice day ! ☀️ <br />
               </p>
 
-              <Link to="/">
+              <a href="#Home">
                 <button className="btn btn--full btn--large btn--back">
                   Take me back to the top ! ⛰️
                 </button>
-              </Link>
+              </a>
             </div>
           )}
         </div>

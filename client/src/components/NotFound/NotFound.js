@@ -24,7 +24,7 @@ function NotFound() {
 
         <Link to="/#Home">
           <button className="btn btn--medium btn--back">
-            Take me back to the homepage ! ⛰️
+            Take me back to the homepage !
           </button>
         </Link>
       </div>
