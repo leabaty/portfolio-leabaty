@@ -97,24 +97,55 @@ table {
   width: 80vw;
 }
 
+.btn {
+  margin: 15px auto;
+  cursor: pointer;
 
-.bgc1{
-  background-color: red;
+  &--send {
+    background: url("./assets/images/buttons/contact-send.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--back {
+    position: relative;
+    z-index: 10;
+    background: url("./assets/images/buttons/contact-back.svg") no-repeat;
+    border: none;
+    color: var(--white);
+
+    &:hover {
+      transform: scale(1.1);
+      transition: all 200ms ease-in-out;
+    }
+  }
+
+  &--handwritten {
+    font-family: "friendly_schoolmatesregular", cursive;
+  }
+
+  &--large {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+
+  &--medium {
+    padding: 8px 25px;
+    font-size: 1.1rem;
+  }
+
+  &--small {
+    padding: 6px 20px;
+    font-size: 1rem;
+  }
 }
 
-.bgc2{
-  background-color: var(--beige);
-}
-
-.bgc3{
-  background-color: blue;
-}
-
-.bgc4{
-  background-color: violet;
-}
-
-.bgc5{
-  background-color: rgb(163, 139, 163);
+.btn--back-to-menu {
+  margin: 20px;
 }
 
