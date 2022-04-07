@@ -22,7 +22,7 @@ function NotFound() {
           />
         </section>
 
-        <Link to="/">
+        <Link to="/#Home">
           <button className="btn btn--medium btn--back">
             Take me back to the homepage !
           </button>
