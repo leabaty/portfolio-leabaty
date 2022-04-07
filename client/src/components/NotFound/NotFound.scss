@@ -1,0 +1,51 @@
+.notfound {
+  &__page {
+    background-color: var(--beige);
+    padding-bottom: 4rem;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-size: 5rem;
+  }
+  &__text {
+    font-size: 2rem;
+  }
+  &__img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .notfound {
+    &__title {
+      font-size: 4rem;
+    }
+    &__text {
+      font-size: 1.5rem;
+    }
+    &__img {
+      width: 60%;
+      margin: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .notfound {
+    &__page {
+      padding-bottom: 2rem;
+    }
+
+    &__title {
+      font-size: 3rem;
+    }
+    &__text {
+      font-size: 1.1rem;
+    }
+    &__img {
+      width: 80%;
+      margin: 2rem;
+    }
+  }
+}

@@ -1,16 +1,16 @@
 .contact {
-  position:relative;
+  position: relative;
   z-index: 10;
   padding-bottom: 50px;
 
   &__intro {
-  margin: 0 auto;
-  width: 60%;
-  line-height: 25px;
-  &--bold {
-    font-weight: 500;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 25px;
+    &--bold {
+      font-weight: 500;
+    }
   }
-}
 }
 
 .form {
@@ -68,11 +68,9 @@ label input {
   margin-right: 5px;
 }
 
-
 .btn {
   margin: 15px auto;
   cursor: pointer;
-
 
   &--send {
     background: url("./../../assets/images/buttons/contact-send.svg") no-repeat;
@@ -86,6 +84,8 @@ label input {
   }
 
   &--back {
+    position: relative;
+    z-index: 10;
     background: url("./../../assets/images/buttons/contact-back.svg") no-repeat;
     border: none;
     color: var(--white);

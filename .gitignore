@@ -16,6 +16,8 @@
 /server/.env
 /client/.env
 
+TODO.md
+
 .vscode
 .DS_Store
 .env.local
