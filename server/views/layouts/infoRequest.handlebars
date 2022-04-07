@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Jost:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <title>❓ Nouvelle demande d'information</title>
+    <title>❓ Nouveau message - Portfolio</title>
     <!--[if mso]>
       <style>
         table {
@@ -37,12 +37,34 @@
       </noscript>
     <![endif]-->
     <style>
-      table, td, div, h1, p { font-family: Jost, Arial, sans-serif; } @media
-      screen and (max-width: 530px) { .unsub { display: block; padding: 8px;
-      margin-top: 14px; border-radius: 6px; background-color: #632626;
-      text-decoration: none !important; } .col-lge { max-width: 100% !important;
-      } } @media screen and (min-width: 531px) { .col-sml { max-width: 27%
-      !important; } .col-lge { max-width: 73% !important; } }
+      table,
+      td,
+      div,
+      h1,
+      p {
+        font-family: Jost, Arial, sans-serif;
+      }
+      @media screen and (max-width: 530px) {
+        .unsub {
+          display: block;
+          padding: 8px;
+          margin-top: 14px;
+          border-radius: 6px;
+          background-color: #f2e8dc;
+          text-decoration: none !important;
+        }
+        .col-lge {
+          max-width: 100% !important;
+        }
+      }
+      @media screen and (min-width: 531px) {
+        .col-sml {
+          max-width: 27% !important;
+        }
+        .col-lge {
+          max-width: 73% !important;
+        }
+      }
     </style>
   </head>
   <body
@@ -50,7 +72,7 @@
       margin: 0;
       padding: 0;
       word-spacing: normal;
-      background-color: #632626;
+      background-color: #f2e8dc;
     "
   >
     <div
@@ -61,7 +83,7 @@
         text-size-adjust: 100%;
         -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
-        background-color: #632626;
+        background-color: #f2e8dc;
       "
     >
       <table
@@ -87,7 +109,7 @@
                 font-size: 17px;
                 line-height: 22px;
                 color: #632626;
-                padding-bottom:40px;
+                padding-bottom: 40px;
               "
             >
               <tr>
@@ -99,38 +121,25 @@
                   "
                 >
                   <a
-                    href="https://www.apsara-yoga.com"
+                    href="https://www.leabaty.com"
                     style="text-decoration: none"
-                  ><img
-                      src="https://i.ibb.co/5cDwpWf/apsara-logo-fullsecondary-square.png"
-                      alt="apsara-logo"
-                      width="60"
-                      alt="Logo"
+                    ><img
+                      src="https://i.ibb.co/MpSTkn3/logo.png"
+                      alt="logo"
                       style="
-                        width: 60px;
-                        max-width: 30%;
+                        width: 250px;
+                        max-width: 35%;
                         height: auto;
                         border: none;
                         text-decoration: none;
                       "
                     />
-                    <h1
-                      style="
-                        font-family: 'Homemade Apple', Georgia, cursive;
-                        font-size: 1.5em;
-                        color: #f9e4d4;
-                        line-height: 40px;
-                        font-weight: bold;
-                      "
-                    >
-                      Apsara Yoga
-                    </h1>
                   </a>
                 </td>
               </tr>
 
               <tr>
-                <td style="padding: 30px; background-color: #f9e4d4">
+                <td style="padding: 30px; background-color: #f2e8dc">
                   <p
                     style="
                       margin-top: 0;
@@ -140,10 +149,11 @@
                       letter-spacing: -0.02em;
                     "
                   >
-                    Coucou Laure,
+                    Bonjour à moi,
                   </p>
-                  <p style="margin: 0">Tu as reçu un message sur le site
-                    apsara-yoga.com.</p>
+                  <p style="margin: 0">
+                    Nouveau message d'un visiteur du portfolio :
+                  </p>
 
                   <p>
                     Voici les coordonnées de la personne ayant effectué la
@@ -163,40 +173,36 @@
                     {{infoReq}}
                   </p>
 
-                  <p>
-                    Tu peux répondre à partir du modèle suivant, en veillant à
-                    bien supprimer ce début de mail et en changeant le/la
-                    destinatair.e. Belle journée ! ☀️
-                  </p>
-
-                  <hr
-                    style="
-                      border-top: 2px dotted #632626;
-                      border-left: none;
-                      border-right: none;
-                      border-bottom: none;
-                    "
-                  />
+                  <p>---------- MODELE DE REPONSE FRANCAIS ----------</p>
 
                   <p style="font-size: 1.2em">Bonjour {{firstname}},</p>
-                  <p>
-                    <span >[A COMPLETER]</span>
-                  </p>
 
                   <p>
                     Je suis également disponible au
-                    <strong>06 12 34 56 78</strong>
+                    <strong>06 76 05 17 35</strong>
                     pour toute question supplémentaire.
                   </p>
 
                   <p>Très belle journée,</p>
+                  <p>Bien cordialement</p>
+
+                  <p>Léa Baty</p>
+
+                  <p>---------- MODELE DE REPONSE ANGLAIS ----------</p>
+
+                  <p style="font-size: 1.2em">Dear {{firstname}},</p>
 
                   <p>
-                    Laure
+                    Thank you for reaching out. 
+                    You can also reach me by phone :
+                    <strong>06 76 05 17 35</strong>
                   </p>
 
-                </td>
+                  <p>I wish you a nice day,</p>
+                  <p>Best regards</p>
 
+                  <p>Léa Baty</p>
+                </td>
               </tr>
 
               <tr>
@@ -205,43 +211,25 @@
                     padding: 20px;
                     text-align: center;
                     font-size: 12px;
-                    background-color: #eccfb8;
+                    background-color: #f2e8dc;
                     color: #632626;
                   "
                 >
                   <p style="margin: 0 0 8px 0">
                     <a
-                      href="https://www.apsara-yoga.com"
-                      style="text-decoration: none"
-                    ><img
-                        src="https://i.ibb.co/2ktHYwF/apsara-logo-colorized-square.png"
-                        width="20"
-                        height="20"
-                        alt="apsara-logo"
-                        style="display: inline-block; color: #632626"
-                      /></a>
-
-                    <a
-                      href="https://www.apsara-yoga.com"
+                      href="https://www.leabaty.com"
                       style="
                         text-decoration: none;
                         color: #632626;
-                        font-family: 'Homemade Apple', Georgia, cursive;
-                        font-size: 20px;
+                        font-family: 'Jost';
+                        font-size: 15px;
                       "
-                    >Apsara Yoga
+                    >
+                      → Take me to the portfolio ←
                     </a>
-                  </p>
-                  <p style="font-size: 0.9em">
-                    Paris
-                    <br />France
-                  </p>
-                  <p style="margin: 0; font-size: 14px; line-height: 20px">
-                    &copy; Apsara Yoga 2022
                   </p>
                 </td>
               </tr>
-
             </table>
             <!--[if mso]>
           </td>
