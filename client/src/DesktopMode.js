@@ -4,10 +4,7 @@ import "fullpage.js/vendors/scrolloverflow.min";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 import "./App.scss";
-import "./FullPage.scss";
-
-//DATA
-import projectsData from "./data/projects-en.json";
+import "./DesktopMode.scss";
 
 // COMPONENTS
 import Footer from "./components/Footer/Footer";
@@ -19,7 +16,7 @@ import Work from "./components/Work/Work";
 import Contact from "./components/Contact/Contact";
 import NavbarFullpage from "./components/Navbar/NavbarFullpage/NavbarFullpage";
 
-function FullPage() {
+function DesktopMode() {
   const anchors = [
     "Home",
     "Work",
@@ -55,7 +52,6 @@ function FullPage() {
         navigationTooltips={anchors}
         scrollingSpeed={1000}
         scrollOverflow={true}
-        responsiveWidth={800}
         render={({ state }) => {
           return (
             <ReactFullpage.Wrapper>
@@ -92,4 +88,4 @@ function FullPage() {
   );
 }
 
-export default FullPage;
+export default DesktopMode;

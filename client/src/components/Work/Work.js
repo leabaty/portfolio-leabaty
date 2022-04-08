@@ -5,7 +5,7 @@ import "./Work.scss"
 function Work() {
   return (
     <>
-      <div className="page">
+      <div className="page" id="Work">
         <div className="container">
         <div className="work__container">
           <h1 className="title">Work</h1>

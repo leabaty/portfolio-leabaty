@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 
 import ContactBase from "./ContactBase";
 import ContactInfo from "./ContactInfo";
@@ -93,7 +92,7 @@ function Contact() {
       <ContactBg />
       {/*FORMULAIRE DE BASE*/}
 
-      <div className="page">
+      <div className="page" id="Contact">
         <div className="container">
           <h1 className="title">Contact</h1>
 
