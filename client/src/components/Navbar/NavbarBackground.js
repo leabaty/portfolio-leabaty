@@ -8,7 +8,7 @@ import mustardOvaley from "./../../assets/images/forms/mustard-ovaley.svg";
 import pinkPotato from "./../../assets/images/forms/pink-potatoey.svg";
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];
-const trans1 = (x, y) => `translate3d(${x / 45}px,${y / 45}px,0)`;
+const trans1 = (x, y) => `translate3d(${x / 35}px,${y / 45}px,0)`;
 
 function NavbarBackground() {
   const [props, set] = useSpring(() => ({

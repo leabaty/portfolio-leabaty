@@ -46,3 +46,57 @@
 }
 
 
+@media screen and (max-width: 800px) {
+  .home{
+  
+    &__name {
+      font-size: 1.8rem;
+    }
+  
+    &__designation {
+      &__text {
+        margin: 1rem;
+        font-size: 2.2rem;
+      }
+    }
+  }
+  
+  .--small {
+    font-size: 1.8rem;
+  }
+  
+  .--smaller {
+    font-size: 1.3rem;
+  }
+  }
+
+
+
+@media screen and (max-width: 480px) {
+.home{
+
+  &__profile-picture {
+    margin: 1.5rem;
+    height: 150px;
+  }
+
+  &__name {
+    font-size: 1.7rem;
+  }
+
+  &__designation {
+    &__text {
+      margin: 1rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+.--small {
+  font-size: 1.5rem;
+}
+
+.--smaller {
+  font-size: 1rem;
+}
+}

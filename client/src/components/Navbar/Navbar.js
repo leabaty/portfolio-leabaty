@@ -7,7 +7,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import "./Navbar.scss";
 
 import NavbarBg from "./NavbarBackground";
-import logo from "../../assets/images/logo/logo-white-transparent.svg";
+import logo from "../../assets/images/logo/logo-white-transparent-vectorized.svg";
 
 function Navbar() {
   const [openedMobileMenu, setOpenMobileMenu] = useState(false);
@@ -18,7 +18,7 @@ function Navbar() {
   /* Quand l'utilisateur a cliqué sur un des liens, cela ferme le menu et présente à nouveau la navbar mobile*/
   const closeMobileMenu = () => {
     setOpenMobileMenu(false);
-  }
+  };
 
   return (
     <>

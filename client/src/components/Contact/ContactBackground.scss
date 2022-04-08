@@ -1,18 +1,18 @@
 .bc1 {
-  position: absolute;
+  position: relative;
   left: -70px;
   bottom: -200px;
 }
 
 .bc2 {
-  position: absolute;
+  position: relative;
   left: 200px;
   bottom: -200px;
   width: 300px;
 }
 
 .bc3 {
-  position: absolute;
+  position: relative;
   right: -150px;
   bottom: -250px;
 }
@@ -73,13 +73,19 @@
 
 @media screen and (max-width: 480px) {
   .bc1 {
-    left: -175px;
+    bottom: -800px;
+    left: -200px;
+  }
+
+  .bc3 {
+    bottom: -570px;
+    right: -250px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .bc1 {
-    bottom: -150px;
+    bottom: -850px;
   }
 
   .bc2 {
@@ -87,6 +93,7 @@
   }
 
   .bc3 {
-    right: -150px;
+    bottom: -650px;
+    right: -120px;
   }
 }
