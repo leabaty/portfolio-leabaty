@@ -14,7 +14,7 @@ import aboutMeImg from "../../../assets/images/about-illustration.svg";
 function AboutIntro() {
   return (
     <>
-      <div className="page" id="About">
+      <div className="page">
         <div className="container">
           <h1 className="title">About me</h1>
 

@@ -18,7 +18,7 @@ function Home() {
   return (
     <>
     <HomeBg/>
-      <div className="page" id="Home">
+      <div className="page">
         <div className="container">
           <div className="home">
             <p className="home__name">Léa Baty</p>

@@ -92,7 +92,7 @@ function Contact() {
       <ContactBg />
       {/*FORMULAIRE DE BASE*/}
 
-      <div className="page" id="Contact">
+      <div className="page">
         <div className="container">
           <h1 className="title">Contact</h1>
 
