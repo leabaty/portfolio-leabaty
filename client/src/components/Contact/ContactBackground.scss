@@ -14,17 +14,16 @@
 .bc3 {
   position: relative;
   right: -800px;
-  bottom: -500px;
+  bottom: -600px;
 }
 
 @media screen and (max-width: 1200px) {
   .bc2 {
     bottom: -650px;
   }
-}
-
-.bc3 {
-  right: -300px;
+  .bc3 {
+    right: -300px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -42,11 +41,11 @@
   .bc2 {
     display: none;
   }
-}
 
-.bc3 {
-  bottom: -450px;
-  right: -600px;
+  .bc3 {
+    bottom: -450px;
+    right: -600px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -57,7 +56,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   .bc1 {
     bottom: -700px;
   }
