@@ -1,72 +1,69 @@
 .bc1 {
   position: relative;
   left: -70px;
-  bottom: -200px;
+  bottom: -600px;
 }
 
 .bc2 {
   position: relative;
-  left: 200px;
-  bottom: -200px;
+  left: -190px;
+  bottom: -600px;
   width: 300px;
 }
 
 .bc3 {
   position: relative;
-  right: -150px;
-  bottom: -250px;
+  right: -800px;
+  bottom: -500px;
 }
 
 @media screen and (max-width: 1200px) {
   .bc2 {
-    bottom: -250px;  }
+    bottom: -650px;
+  }
+}
+
+.bc3 {
+  right: -300px;
 }
 
 @media screen and (max-width: 1024px) {
+  .bc3 {
+    right: -200px;
+  }
 }
 
 @media screen and (max-width: 960px) {
   .bc1 {
     left: -100px;
-    bottom: -200px;
-  }
-
-  .bc2 {
-    left: 125px;
-    width: 250px;
-  }
-
-  .bc3 {
-    bottom: -225px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .bc1 {
-    bottom: -100px;
-  }
-
-  .bc2 {
-    left: 80px;
-    bottom: -180px;
-  }
-
-  .bc3 {
-    right: -100px;
-    bottom: -125px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .bc1 {
-    bottom: -150px;
+    bottom: -650px;
   }
 
   .bc2 {
     display: none;
   }
+}
+
+.bc3 {
+  bottom: -450px;
+  right: -600px;
+}
+
+@media screen and (max-width: 768px) {
+  .bc3 {
+    bottom: -650px;
+    right: -300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .bc1 {
+    bottom: -700px;
+  }
 
   .bc3 {
+    bottom: -700px;
     right: -150px;
   }
 }
