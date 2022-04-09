@@ -77,7 +77,7 @@ export default class InfoReqController {
       let mailOptions = {
         from: process.env.MAIL_FROM,
         to: formData.email,
-        subject: "👩‍💻 Thank you for your message ! | Léa Baty's Portfolio",
+        subject: "Thank you for your message ! | Léa Baty's Portfolio",
         template: "infoRecap",
         context: {
           firstname: formData.firstname,

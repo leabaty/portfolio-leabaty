@@ -23,7 +23,7 @@ function Home() {
           <div className="home">
             <p className="home__name">Léa Baty</p>
 
-            <img src={profile} className="home__profile-picture" />
+            <img src={profile} alt="profile picture Léa Baty" className="home__profile-picture" />
 
             <div className="home__designation">
               <p className="home__designation__text">fullstack web developer</p>

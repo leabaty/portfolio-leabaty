@@ -29,6 +29,7 @@ function Footer() {
           <a
             className="social__icon-link"
             href="https://github.com/leabaty"
+            alt="Github"
             target="_blank"
             aria-label="Github"
           >
@@ -37,6 +38,7 @@ function Footer() {
           <a
             className="social__icon-link"
             href="https://www.linkedin.com/in/l%C3%A9a-baty-2a542375"
+            alt="Linkedin"
             target="_blank"
             aria-label="LinkedIn"
           >
@@ -46,6 +48,7 @@ function Footer() {
           <a
             className="social__icon-link"
             href="mailto: leabaty.dev@gmail.com"
+            alt="email me"
             target="_blank"
             aria-label="Email me"
           >

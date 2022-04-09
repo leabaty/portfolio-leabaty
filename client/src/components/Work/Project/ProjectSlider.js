@@ -59,9 +59,9 @@ function ProjectSlider() {
             >
               <div className="project__container">
                 <div className="project__description">
-                  <h4 className="title--nano project__description__title">
+                  <h2 className="title--nano project__description__title">
                     {index + 1}/{array.length}
-                  </h4>
+                  </h2>
 
                   <h2 className="title--small project__description__title">
                     {project.name}

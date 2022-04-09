@@ -25,11 +25,13 @@ function NavbarBackground() {
         className="form tn1"
         style={{ transform: props.xy.to(trans1) }}
         src={pinkPotato}
+        alt=""
       />
       <animated.img
         className="form--big tn2"
         style={{ transform: props.xy.to(trans1) }}
         src={mustardOvaley}
+        alt=""
       />
     </div>
   );

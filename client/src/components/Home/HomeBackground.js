@@ -39,29 +39,34 @@ function HomeBackground() {
         className="form bh1"
         style={{ transform: props.xy.to(trans3) }}
         src={mustardPotato}
+        alt=""
       />
       <animated.img
         className="form bh2"
         style={{ transform: props.xy.to(trans2) }}
         src={greenSquarey}
+        alt=""
       />
       <animated.img
         className="form bh3"
         style={{ transform: props.xy.to(trans1) }}
         src={pinkSquareTriangley}
+        alt=""
       />
       <animated.img
         className="form bh4"
         style={{ transform: props.xy.to(trans1) }}
         src={pinkOvaley}
+        alt=""
       />
       <animated.img
         className="form bh5"
         style={{ transform: props.xy.to(trans2) }}
         src={greenPotato}
+        alt=""
       />
-      <img className="stroke ch1" src={leftStroke} />
-      <img className="stroke ch2" src={rightStroke} />
+      <img className="stroke ch1" src={leftStroke} alt=""/>
+      <img className="stroke ch2" src={rightStroke} alt="" />
       
       {/* <LeftStroke />
       <RightStroke /> */}

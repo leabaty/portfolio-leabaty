@@ -29,16 +29,19 @@ function ContactBackground() {
         className="form bc1"
         style={{ transform: props.xy.to(trans2) }}
         src={mustardOvaley}
+        alt=""
       />
       <animated.img
         className="form bc2"
         style={{ transform: props.xy.to(trans1) }}
         src={pinkOvaley}
+        alt=""
       />
       <animated.img
         className="form bc3"
         style={{ transform: props.xy.to(trans2) }}
         src={greenPotato}
+        alt=""
       />
     </div>
   );
