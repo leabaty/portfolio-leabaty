@@ -32,7 +32,7 @@ function Home() {
               </p>
               <p className="home__designation__text --smaller">cat lover</p>
 
-              <a href="#Work">
+              <a href="#Work" alt="to the work section">
                 <BsArrowDownCircle className="home__scroll-icon" />
               </a>
             </div>

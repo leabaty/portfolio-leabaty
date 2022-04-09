@@ -21,7 +21,7 @@ function AboutEducation() {
                 }
                 key={education._id}
               >
-                <h4 className="education__item__title">{education.diploma}</h4>
+                <h2 className="education__item__title">{education.diploma}</h2>
 
                 <div className="education__infos">
                   <div className="education__infos__basic">

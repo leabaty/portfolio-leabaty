@@ -61,9 +61,9 @@ function AboutExperience() {
               .map((experience, index) => {
                 return (
                   <div className="experience__item" key={experience._id}>
-                    <h4 className="experience__item__title">
+                    <h2 className="experience__item__title">
                       {experience.position}
-                    </h4>
+                    </h2>
 
                     <div className="experience__infos">
                       <div className="experience__infos__basic">
