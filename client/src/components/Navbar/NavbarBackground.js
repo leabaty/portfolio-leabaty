@@ -22,13 +22,13 @@ function NavbarBackground() {
       onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}
     >
       <animated.img
-        className="form tn1"
+        className="tn1"
         style={{ transform: props.xy.to(trans1) }}
         src={pinkPotato}
         alt=""
       />
       <animated.img
-        className="form--big tn2"
+        className="tn2"
         style={{ transform: props.xy.to(trans1) }}
         src={mustardOvaley}
         alt=""

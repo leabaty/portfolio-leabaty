@@ -100,7 +100,7 @@ function Contact() {
             <form className="contact" onSubmit={handleSubmit}>
               <p className="contact__intro">
                 Interested in knowing more ? <br /> Want to discuss a website
-                idea or share a position that I could be interested of ? <br />{" "}
+                idea or share a position that I could be interested in ? <br />{" "}
                 Or do you just want a picture of my cat to prove it's the most
                 beautiful one ? <br />{" "}
                 <span className="contact__intro--bold">
