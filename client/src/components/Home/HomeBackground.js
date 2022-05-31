@@ -13,8 +13,8 @@ import leftStroke from "./../../assets/images/forms/left-stroke.svg";
 import rightStroke from "./../../assets/images/forms/right-stroke.svg";
 
 // TBC : Framer Motion vs Clippath vs... ?! 
-import LeftStroke from "./Framer-Motion-tests/LeftStroke";
-import RightStroke from "./Framer-Motion-tests/RightStroke";
+// import LeftStroke from "./Framer-Motion-tests/LeftStroke";
+// import RightStroke from "./Framer-Motion-tests/RightStroke";
 
 // 0 - USESPRING/MOUSE PARALLAX : params for the mouse parallax effect on the forms (cf. useSpring)
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2];

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 
 import "./ProjectSlider.scss";
@@ -97,6 +97,7 @@ function ProjectSlider() {
                         href={project.github_url}
                         target="_blank"
                         aria-label="Github URL"
+                        rel="noreferrer"
                       >
                         <AiFillGithub />
                       </a>
@@ -106,6 +107,7 @@ function ProjectSlider() {
                         href={project.website_url}
                         target="_blank"
                         aria-label="Website URL"
+                        rel="noreferrer"
                       >
                         <VscGlobe />
                       </a>

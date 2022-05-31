@@ -32,6 +32,7 @@ function Footer() {
             alt="Github"
             target="_blank"
             aria-label="Github"
+            rel="noreferrer"
           >
             <AiFillGithub />
           </a>
@@ -41,6 +42,7 @@ function Footer() {
             alt="Linkedin"
             target="_blank"
             aria-label="LinkedIn"
+            rel="noreferrer"
           >
             <AiFillLinkedin />
           </a>
@@ -51,6 +53,7 @@ function Footer() {
             alt="email me"
             target="_blank"
             aria-label="Email me"
+            rel="noreferrer"
           >
             <HiOutlineMailOpen />
           </a>
