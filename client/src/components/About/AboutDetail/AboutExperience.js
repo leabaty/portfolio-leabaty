@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import "./AboutExperience.scss";
+import './AboutExperience.scss';
 
-import data from "../../../data/about-en.json";
+import data from '../../../data/about-en.json';
 
-import { BsArrowRightCircle } from "react-icons/bs";
+import { BsArrowRightCircle } from 'react-icons/bs';
 
 function AboutExperience() {
   const [currentExperience, setCurrentExperience] = useState(true);
-  const [currentExperienceId, setCurrentExperienceId] = useState("3");
+  const [currentExperienceId, setCurrentExperienceId] = useState('4');
   const [currentExperienceDetails, setCurrentExperienceDetails] = useState([]);
 
   // --------- DESKTOP OR MOBILE MODE ? ------------ //
@@ -23,7 +23,7 @@ function AboutExperience() {
     }
   };
 
-  window.addEventListener("resize", changeViewMode);
+  window.addEventListener('resize', changeViewMode);
 
   useEffect(() => {
     changeViewMode();
@@ -39,9 +39,7 @@ function AboutExperience() {
 
   // we put in an array the details of the matching experience thanks to the experience's id
   const getCurrentExperience = (currentExpId, experiences) => {
-    const matchingExpDetails = experiences.find(
-      (experience) => +experience._id === +currentExpId
-    );
+    const matchingExpDetails = experiences.find((experience) => +experience._id === +currentExpId);
     setCurrentExperienceDetails(matchingExpDetails.description);
   };
 
@@ -53,33 +51,31 @@ function AboutExperience() {
   return (
     <>
       {mobileMode ? (
-        <div className="experience__container">
-          <div className="experience__items">
+        <div className='experience__container'>
+          <div className='experience__items'>
             {data.experiences
               .slice(0)
               .reverse()
               .map((experience, index) => {
                 return (
-                  <div className="experience__item" key={experience._id}>
-                    <h2 className="experience__item__title">
-                      {experience.position}
-                    </h2>
+                  <div className='experience__item' key={experience._id}>
+                    <h2 className='experience__item__title'>{experience.position}</h2>
 
-                    <div className="experience__infos">
-                      <div className="experience__infos__basic">
-                        <p className="experience__infos__text">
-                          {experience.start_period} - {experience.end_period}{" "}
+                    <div className='experience__infos'>
+                      <div className='experience__infos__basic'>
+                        <p className='experience__infos__text'>
+                          {experience.start_period} - {experience.end_period}{' '}
                         </p>
-                        <p className="experience__infos__text">
-                          {experience.company} • {experience.location}{" "}
+                        <p className='experience__infos__text'>
+                          {experience.company} • {experience.location}{' '}
                         </p>
                       </div>
                     </div>
 
-                    <ul className="experience__detail">
+                    <ul className='experience__detail'>
                       {experience.description.map((item) => {
                         return (
-                          <li key={item} className="experience__infos__text">
+                          <li key={item} className='experience__infos__text'>
                             {item}
                           </li>
                         );
@@ -91,40 +87,31 @@ function AboutExperience() {
           </div>
         </div>
       ) : (
-        <div className="experience__container">
-          <div className="experience__items">
+        <div className='experience__container'>
+          <div className='experience__items'>
             {data.experiences
               .slice(0)
               .reverse()
               .map((experience, index) => {
                 return (
                   <div
-                    className={
-                      currentExperience &&
-                      currentExperienceId === experience._id
-                        ? "experience__item--important"
-                        : "experience__item"
-                    }
+                    className={currentExperience && currentExperienceId === experience._id ? 'experience__item--important' : 'experience__item'}
                     onClick={() => handleClick(experience._id)}
                     key={experience._id}
                   >
-                    <h4 className="experience__item__title">
-                      {experience.position}
-                    </h4>
+                    <h4 className='experience__item__title'>{experience.position}</h4>
 
-                    <div className="experience__infos">
-                      <div className="experience__infos__basic">
-                        <p className="experience__infos__text">
-                          {experience.start_period} - {experience.end_period}{" "}
+                    <div className='experience__infos'>
+                      <div className='experience__infos__basic'>
+                        <p className='experience__infos__text'>
+                          {experience.start_period} - {experience.end_period}{' '}
                         </p>
-                        <p className="experience__infos__text">
-                          {experience.company} • {experience.location}{" "}
+                        <p className='experience__infos__text'>
+                          {experience.company} • {experience.location}{' '}
                         </p>
                       </div>
 
-                      <BsArrowRightCircle
-                        className="experience__infos__icon"
-                      />
+                      <BsArrowRightCircle className='experience__infos__icon' />
                     </div>
                   </div>
                 );
@@ -132,10 +119,10 @@ function AboutExperience() {
           </div>
 
           {currentExperience && (
-            <ul className="experience__detail">
+            <ul className='experience__detail'>
               {currentExperienceDetails.map((item) => {
                 return (
-                  <li key={item} className="experience__infos__text">
+                  <li key={item} className='experience__infos__text'>
                     {item}
                   </li>
                 );

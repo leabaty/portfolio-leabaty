@@ -103,6 +103,20 @@
         "Product Manager Assistant for roundtrips in Asia and for balnearic stays in the Dominican Republic & Cuba"
       ],
       "important": false
+    },
+    {
+      "_id": "4",
+      "company": "AdAlong ",
+      "position": "Fullstack web developer",
+      "start_period": "2022",
+      "end_period": "",
+      "location": "remote",
+      "description": [
+        "AdAlong is a SaaS platform that allows brands to collect, process and promote content created by their communities on social networks.",
+        "Back/front web development : NodeJS, Typescript, React, Gitlab, MongoDB, Redis, ElasticSearch, GCP",
+        "Product management interim / Team organization : Assistance to the CEO in the company’s vision and product strategy, Roadmap management & feature prioritization, Kanban management & bi-weekly team meeting conductance, Weekly organization-wide team meeting standup, Link with business/CSM/marketing teams, Recruitment management"
+      ],
+      "important": false
     }
   ],
 
@@ -116,6 +130,12 @@
     {
       "_id": "2",
       "name": "Javascript",
+      "description": [""],
+      "important": false
+    },
+    {
+      "id": "9",
+      "name": "Typescript",
       "description": [""],
       "important": true
     },

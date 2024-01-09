@@ -7,8 +7,8 @@
       "start_period": "",
       "end_period": "2010",
       "location": "La Rochelle",
-      "description": ["double french-german highschool diploma"], 
-      "important":false
+      "description": ["double french-german highschool diploma"],
+      "important": false
     },
     {
       "id": "2",
@@ -17,8 +17,8 @@
       "start_period": "2010",
       "end_period": "2013",
       "location": "Lyon & Weimar",
-      "description": [""], 
-      "important":false
+      "description": [""],
+      "important": false
     },
     {
       "id": "3",
@@ -27,8 +27,8 @@
       "start_period": "2013",
       "end_period": "2014",
       "location": "Lille        ",
-      "description": ["Programme Grande Ecole"], 
-      "important":false
+      "description": ["Programme Grande Ecole"],
+      "important": false
     },
     {
       "id": "4",
@@ -37,8 +37,8 @@
       "start_period": "2015",
       "end_period": "2016",
       "location": "Lille",
-      "description": ["Spécialisation Explora (spécialisation digitale)"], 
-      "important":false
+      "description": ["Spécialisation Explora (spécialisation digitale)"],
+      "important": false
     },
     {
       "id": "5",
@@ -47,8 +47,8 @@
       "start_period": "",
       "end_period": "2021",
       "location": "remote",
-      "description": [""], 
-      "important":true
+      "description": [""],
+      "important": true
     }
   ],
 
@@ -105,6 +105,11 @@
     {
       "id": "2",
       "name": "Javascript",
+      "description": [""]
+    },
+    {
+      "id": "9",
+      "name": "Typescript",
       "description": [""]
     },
     {
