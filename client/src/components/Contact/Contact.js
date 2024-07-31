@@ -63,13 +63,11 @@ function Contact() {
     });
   };
 
-  //https://portfolio-leabaty.fly.dev
-
   // SENDING PARAMETERS
   const sendData = async (URL) => {
     setSent(true);
     try {
-      await axios.post(`https://portfolio-leabaty.fly.dev/${URL}`, {
+      await axios.post(`${process.env.REACT_APP_SERVER}/${URL}`, {
         formData,
       });
     } catch (error) {
