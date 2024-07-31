@@ -1,30 +1,22 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-import "fullpage.js/vendors/scrolloverflow.min";
-import ReactFullpage from "@fullpage/react-fullpage";
+import ReactFullpage from '@fullpage/react-fullpage';
 
-import "./App.scss";
-import "./Fullpage.scss";
+import './App.scss';
+import './Fullpage.scss';
 
 // COMPONENTS
-import Footer from "./components/Footer/Footer";
+import Footer from './components/Footer/Footer';
 
-import Home from "./components/Home/Home";
-import AboutDetail from "./components/About/AboutDetail/AboutDetail";
-import AboutIntro from "./components/About/AboutIntro/AboutIntro";
-import Work from "./components/Work/Work";
-import Contact from "./components/Contact/Contact";
-import NavbarFullpage from "./components/Navbar/NavbarFullpage/NavbarFullpage";
+import Home from './components/Home/Home';
+import AboutDetail from './components/About/AboutDetail/AboutDetail';
+import AboutIntro from './components/About/AboutIntro/AboutIntro';
+import Work from './components/Work/Work';
+import Contact from './components/Contact/Contact';
+import NavbarFullpage from './components/Navbar/NavbarFullpage/NavbarFullpage';
 
 function Fullpage() {
-  const anchors = [
-    "Home",
-    "Work",
-    "About",
-    "Resume",
-    "Contact",
-    "To-Infinity-and-Beyond",
-  ];
+  const anchors = ['Home', 'Work', 'About', 'Resume', 'Contact', 'To-Infinity-and-Beyond'];
 
   const [mobileMode, setMobileMode] = useState(false);
 
@@ -36,14 +28,14 @@ function Fullpage() {
     }
   };
 
-  window.addEventListener("resize", changeViewMode);
+  window.addEventListener('resize', changeViewMode);
 
   useEffect(() => {
     changeViewMode();
   }, []);
 
   return (
-    <div className="app">
+    <div className='app'>
       <NavbarFullpage />
       <ReactFullpage
         licenseKey={process.env.REACT_APP_FULLPAGE_LK}
@@ -56,28 +48,28 @@ function Fullpage() {
         render={({ state }) => {
           return (
             <ReactFullpage.Wrapper>
-              <div className="section fp-auto-height-responsive">
+              <div className='section fp-auto-height-responsive'>
                 <Home />
               </div>
 
-              <div className="section fp-auto-height-responsive">
+              <div className='section fp-auto-height-responsive'>
                 <Work />
               </div>
 
-              <div className="section fp-auto-height-responsive">
+              <div className='section fp-auto-height-responsive'>
                 <AboutIntro />
               </div>
 
-              <div className="section fp-auto-height-responsive">
+              <div className='section fp-auto-height-responsive'>
                 <AboutDetail />
               </div>
 
-              <div className="section fp-auto-height-responsive">
+              <div className='section fp-auto-height-responsive'>
                 <Contact />
               </div>
 
               {!mobileMode && (
-                <div className="section fp-auto-height">
+                <div className='section fp-auto-height'>
                   <Footer />
                 </div>
               )}
