@@ -1,10 +1,9 @@
 import app from './app.js';
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 
-//CONFIG
+// Load environment variables
 dotenv.config();
 
-// DEFINING THE PORT
-const port = process.env.PORT || '8080';
-
-app.listen(port, () => console.log(`Server is istening on port ${port}`));
+export default function handler(req, res) {
+  app(req, res);
+}
