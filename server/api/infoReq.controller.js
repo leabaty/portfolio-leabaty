@@ -1,5 +1,5 @@
-import nodemailer from "nodemailer";
-import hbs from "nodemailer-express-handlebars";
+import nodemailer from 'nodemailer';
+import hbs from 'nodemailer-express-handlebars';
 
 const log = console.log;
 
@@ -9,7 +9,7 @@ export default class InfoReqController {
       let { formData } = req.body;
 
       const transporter = nodemailer.createTransport({
-        service: "gmail",
+        service: 'gmail',
         auth: {
           user: process.env.GMAIL_USER,
           pass: process.env.GMAIL_PASS,
@@ -18,21 +18,21 @@ export default class InfoReqController {
 
       const handlebarOptions = {
         viewEngine: {
-          extName: ".handlebars",
-          partialsDir: "./views/layouts",
+          extName: '.handlebars',
+          partialsDir: './views/layouts',
           defaultLayout: false,
         },
-        viewPath: "./views/layouts",
-        extName: ".handlebars",
+        viewPath: './views/layouts',
+        extName: '.handlebars',
       };
 
-      transporter.use("compile", hbs(handlebarOptions));
+      transporter.use('compile', hbs(handlebarOptions));
 
       let mailOptions = {
         from: formData.email,
         to: process.env.GMAIL_USER,
         subject: "❓ Nouvelle demande d'information",
-        template: "infoRequest",
+        template: 'infoRequest',
         context: {
           firstname: formData.firstname,
           lastname: formData.lastname,
@@ -43,10 +43,8 @@ export default class InfoReqController {
       };
 
       await transporter.sendMail(mailOptions);
-      console.log("BACK HERE - EMAIL SENT")
-      
     } catch (err) {
-      log("Error occured: " + err);
+      log('Error occured: ' + err);
     }
   }
 
@@ -55,7 +53,7 @@ export default class InfoReqController {
       let { formData } = req.body;
 
       const transporter = nodemailer.createTransport({
-        service: "gmail",
+        service: 'gmail',
         auth: {
           user: process.env.GMAIL_USER,
           pass: process.env.GMAIL_PASS,
@@ -64,21 +62,21 @@ export default class InfoReqController {
 
       const handlebarOptions = {
         viewEngine: {
-          extName: ".handlebars",
-          partialsDir: "./views/layouts",
+          extName: '.handlebars',
+          partialsDir: './views/layouts',
           defaultLayout: false,
         },
-        viewPath: "./views/layouts",
-        extName: ".handlebars",
+        viewPath: './views/layouts',
+        extName: '.handlebars',
       };
 
-      transporter.use("compile", hbs(handlebarOptions));
+      transporter.use('compile', hbs(handlebarOptions));
 
       let mailOptions = {
         from: process.env.MAIL_FROM,
         to: formData.email,
         subject: "Thank you for your message ! | Léa Baty's Portfolio",
-        template: "infoRecap",
+        template: 'infoRecap',
         context: {
           firstname: formData.firstname,
           lastname: formData.lastname,
@@ -90,7 +88,7 @@ export default class InfoReqController {
 
       await transporter.sendMail(mailOptions);
     } catch (err) {
-      log("Error occured: " + err);
+      log('Error occured: ' + err);
     }
   }
 }
