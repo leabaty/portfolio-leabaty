@@ -80,7 +80,6 @@ function Contact() {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       sendData('api/v1/portfolio/send_info_request');
       sendData('api/v1/portfolio/send_info_recap');
-      console.log('WHOUHOU, SENT TO THE BACK');
     }
   }, [formErrors]);
 
