@@ -1,7 +1,13 @@
 import nodemailer from 'nodemailer';
 import hbs from 'nodemailer-express-handlebars';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const log = console.log;
+
+// Get the __dirname equivalent for ES6 modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default class InfoReqController {
   static async emailSendInfoRequest(req, res, next) {
@@ -19,10 +25,10 @@ export default class InfoReqController {
       const handlebarOptions = {
         viewEngine: {
           extName: '.handlebars',
-          partialsDir: './views/layouts',
+          partialsDir: path.resolve(__dirname, '../views/layouts'),
           defaultLayout: false,
         },
-        viewPath: './views/layouts',
+        viewPath: path.resolve(__dirname, '../views/layouts'),
         extName: '.handlebars',
       };
 
@@ -44,7 +50,7 @@ export default class InfoReqController {
 
       await transporter.sendMail(mailOptions);
     } catch (err) {
-      log('Error occured: ' + err);
+      log('Error occurred: ' + err);
     }
   }
 
@@ -63,10 +69,10 @@ export default class InfoReqController {
       const handlebarOptions = {
         viewEngine: {
           extName: '.handlebars',
-          partialsDir: './views/layouts',
+          partialsDir: path.resolve(__dirname, '../views/layouts'),
           defaultLayout: false,
         },
-        viewPath: './views/layouts',
+        viewPath: path.resolve(__dirname, '../views/layouts'),
         extName: '.handlebars',
       };
 
@@ -88,7 +94,7 @@ export default class InfoReqController {
 
       await transporter.sendMail(mailOptions);
     } catch (err) {
-      log('Error occured: ' + err);
+      log('Error occurred: ' + err);
     }
   }
 }
