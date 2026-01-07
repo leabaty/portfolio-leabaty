@@ -2,11 +2,11 @@
   "name": "portfolio-v2",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.12.0"
+  },
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.22",
-    "@testing-library/jest-dom": "^5.16.3",
-    "@testing-library/react": "^12.1.4",
-    "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
     "framer-motion": "^6.2.9",
@@ -16,7 +16,7 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
-    "react-spring": "^9.4.4",
+    "react-spring": "^9.7.3",
     "sass": "^1.49.10",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
